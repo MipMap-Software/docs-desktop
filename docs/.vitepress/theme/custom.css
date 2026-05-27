@@ -14,6 +14,9 @@
 .vp-doc p img {
   display: inline;
   vertical-align: middle;
+  height: 1em;
+  margin: 0 4px;
+  margin-bottom: 2px;
 }
 
 /* 独立图片段落会被 markdown-it-image-figures 转成 figure.block-image */
