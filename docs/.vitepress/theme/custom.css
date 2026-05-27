@@ -10,15 +10,24 @@
   --vp-c-brand-3: #32d8b4;
 }
 
-/* 默认：所有图片行内显示 */
-.vp-doc img {
+/* 默认：段落内图片按行内处理 */
+.vp-doc p img {
   display: inline;
   vertical-align: middle;
 }
-/* 仅当 img 是 p 的直接子元素时：居中显示 */
-.vp-doc p > img {
+
+/* 独立图片段落会被 markdown-it-image-figures 转成 figure.block-image */
+.vp-doc figure {
+  margin: 16px 0;
+}
+
+.vp-doc figure img.block-image {
   display: block;
   margin: 0 auto;
+}
+
+.vp-doc figure p {
+  margin: 0;
 }
 
 .vp-doc h2{

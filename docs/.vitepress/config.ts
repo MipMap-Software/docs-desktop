@@ -1,6 +1,7 @@
 import {defineConfig} from "vitepress";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
+import markdownItImageFigures from "markdown-it-image-figures";
 import {buildSidebarWithOptions} from "./sidebar";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -66,6 +67,14 @@ export default defineConfig({
   description: "MipMap Desktop",
   lang: "en-US",
   base: isDev ? "/" : "./",
+  markdown: {
+    config(md) {
+      md.use(markdownItImageFigures, {
+        figcaption: false,
+        classes: "block-image",
+      });
+    },
+  },
   themeConfig: {
     search: {
       provider: "local",
