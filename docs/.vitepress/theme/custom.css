@@ -1,0 +1,44 @@
+:root {
+  --vp-c-brand-1: #2e8555;
+  --vp-c-brand-2: #33925d;
+  --vp-c-brand-3: #359962;
+}
+
+.dark {
+  --vp-c-brand-1: #25c2a0;
+  --vp-c-brand-2: #29d5b0;
+  --vp-c-brand-3: #32d8b4;
+}
+
+/* 默认：所有图片行内显示 */
+.vp-doc img {
+  display: inline;
+  vertical-align: middle;
+}
+/* 仅当 img 是 p 的直接子元素时：居中显示 */
+.vp-doc p > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.vp-doc h2{
+  margin: 0 0 16px 0;
+  border: none;
+}
+
+.VPNavBar.has-sidebar .divider{
+  background-color: var(--vp-c-gutter);
+}
+
+@media (min-width: 960px) {
+  .VPSidebar{
+    padding-top: 0;
+    margin-top: var(--vp-nav-height);
+  }
+  .VPNavBarTitle.has-sidebar .title{
+    border: none;
+  }
+  .VPNavBar:not(.home.top) .divider-line{
+    background-color: transparent !important;
+  }
+}

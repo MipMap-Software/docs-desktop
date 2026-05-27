@@ -1,0 +1,49 @@
+图片中文转英文编辑指南
+=====================
+
+原图片: static\img\desktop-manual-cn\1712032130783-9be4d544-de02-4554-be8d-35be74a23591.webp
+目标: 创建英文版本
+
+编辑步骤:
+1. 使用图片编辑软件打开原图片
+2. 识别图片中的中文文字
+3. 使用克隆工具或修复工具移除中文文字
+4. 添加对应的英文文字，注意：
+   - 保持相同的字体风格
+   - 保持相同的颜色
+   - 保持相同的位置布局
+   - 调整字体大小以适应空间
+
+常用翻译对照:
+文件 → File
+编辑 → Edit
+查看 → View
+工具 → Tools
+帮助 → Help
+新建 → New
+打开 → Open
+保存 → Save
+设置 → Settings
+选项 → Options
+确定 → OK
+取消 → Cancel
+应用 → Apply
+浏览 → Browse
+导入 → Import
+导出 → Export
+项目 → Project
+任务 → Task
+开始 → Start
+停止 → Stop
+完成 → Complete
+进度 → Progress
+状态 → Status
+
+推荐软件:
+- Adobe Photoshop (专业版)
+- GIMP (免费版)
+- Photopea (在线版)
+- Paint.NET (Windows免费版)
+
+完成后请将英文版图片保存为:
+static\img\desktop-manual-cn\1712032130783-9be4d544-de02-4554-be8d-35be74a23591_english.webp
