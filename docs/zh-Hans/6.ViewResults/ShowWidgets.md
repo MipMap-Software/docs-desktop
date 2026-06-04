@@ -4,19 +4,28 @@ sidebar_position: 2
 ---
 ## 显示控件
 
-![](../../img/cn-img/image131.png)：可切换路网地图/卫星地图
+![](../../img/cn-img/20260603173806.png)
 
-![](../../img/cn-img/image132.png)：点击不同成果可切换浏览
+![](../../img/cn-img/image131.png)：可切换路网地图/卫星地图。
 
-![](../../img/cn-img/image133.png)：可截图保存当前成果浏览图
 
-![](../../img/cn-img/image134.png)：复位至默认视角
+![](../../img/cn-img/企业微信截图_20260603174604.png)：浏览空三点云成果。
 
-![](../../img/cn-img/image135.png)：放大/缩小地图
+![](../../img/cn-img/企业微信截图_20260603174234.png)：浏览DOM和DSM成果。
+
+![](../../img/cn-img/企业微信截图_20260603174413.png)：浏览三维模型和三维点云成果。
+
+![](../../img/cn-img/企业微信截图_20260603174517.png)：浏览高斯模型成果。
+
+![](../../img/cn-img/image133.png)：可快速截图保存当前成果浏览图。
+
+![](../../img/cn-img/image134.png)：复位至默认视角。
+
+![](../../img/cn-img/image135.png)：放大/缩小地图。
 
 **3D成果浏览时：**
 
-![](../../img/cn-img/image136.png)：显示模型俯视图
+![](../../img/cn-img/image136.png)：显示模型俯视图。
 
 ![](../../img/cn-img/image137.png)：显示模型侧视图
 

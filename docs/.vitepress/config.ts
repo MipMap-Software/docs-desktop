@@ -67,6 +67,8 @@ export default defineConfig({
   description: "MipMap Desktop",
   lang: "en-US",
   base: isDev ? "/" : "./",
+  
+
   markdown: {
     config(md) {
       md.use(markdownItImageFigures, {
@@ -84,4 +86,6 @@ export default defineConfig({
   lastUpdated: true,
   outDir: "../build",
   locales,
+ 
 });
+

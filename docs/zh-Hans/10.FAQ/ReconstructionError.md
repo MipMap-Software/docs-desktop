@@ -4,9 +4,9 @@ sidebar_position: 3
 ---
 ## 重建报错
 
-**文件/照片读取错误**
+### 照片读取错误
 
-![](../../img/cn-img/image183.png)
+![](../../img/cn-img/企业微信截图_20260604155001.png)
 
 
 解决方法：
@@ -21,12 +21,12 @@ sidebar_position: 3
 
 -   图像为4波段数据，软件暂不支持。
 
-**空三注册失败**
+### 空三注册失败
 
 
 <div style="display:flex; justify-content:center;">
 
-<img src="../../img/cn-img/image184.png" width="300">
+<img src="../../img/cn-img/image184.png" width="280">
 
 </div>
 
@@ -34,22 +34,12 @@ sidebar_position: 3
 
 解决方法：重建需要大于10张且有多视角的照片，建议重叠度70%-80%。
 
-**JSON字段解析错误、9015**
-
-![](../../img/cn-img/image185.png)![](../../img/cn-img/image186.png)
-
-原因：导入的影像没有POS，成果设置了地理坐标系/投影坐标系。
-
-解决方法：不设置坐标系或者设置本地坐标系。
-
-**没有足够的下视图像生产2D成果**
 
 
-<div style="display:flex; justify-content:center;">
+### 没有足够的下视图像生产2D成果
 
-<img src="../../img/cn-img/image187.png" width="350">
+![](../../img/cn-img/企业微信截图_20260604154540.png)
 
-</div>
 
 原因：数据采集视角不是垂直下视，仅开启二维成果输出。
 
