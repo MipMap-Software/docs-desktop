@@ -42,7 +42,7 @@ function makeLocaleTheme(pathPrefix: string, localeKey: string) {
               link: "https://www.douyin.com/user/MS4wLjABAAAACuPHt6LZw97U20dSiqKrVD-H4QlhgsQlNz-Q-4APdbUWop9TdqBpwwBRvMLQfn2-",
             },
           ]
-        : [],
+        : [{text: "MipMap", link: "https://na.mipmap3d.com/"}],
     socialLinks:
       localeKey === "zh-Hans"
         ? []
