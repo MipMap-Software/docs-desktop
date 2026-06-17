@@ -20,9 +20,9 @@ sidebar_position: 2
 
 
 
-![](../../img/cn-img/image5.png)
+![](/img/cn-img/image5.png)
 
-![](../../img/cn-img/image4.png)
+![](/img/cn-img/image4.png)
 
 
 

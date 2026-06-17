@@ -14,22 +14,22 @@ sidebar_position: 4
 
 打开360安全卫士，点击木马查杀，点击恢复区
 
-![](../../img/cn-img/image13.png)
+![](/img/cn-img/image13.png)
 
 在可恢复区以及已阻止区找到名称带有mipmap的隔离文件，如下图里的mipmap_desktop.exe，常见的还有mipmap_engine.dll。选中文件，点击恢复所选
 
-![](../../img/cn-img/image14.png)
+![](/img/cn-img/image14.png)
 
 ### 将软件安装目录加入信任区
 
 打开360安全卫士，点击木马查杀，点击信任区
 
-![](../../img/cn-img/image15.png)
+![](/img/cn-img/image15.png)
 
 在已信任区页面，点击添加目录
 
-![](../../img/cn-img/image16.png)
+![](/img/cn-img/image16.png)
 
 在弹出的目录选择页面，选择mipmapdesktop安装目录（默认安装在C:\\Program Files\\MipMap\\MipMapDesktop），点击确定。
 
-![](../../img/cn-img/image17.png)
+![](/img/cn-img/image17.png)

@@ -6,15 +6,15 @@ sidebar_position: 3
 
 >重建报错一般为数据或电脑运行环境及配置问题。出现报错首先检查导入的数据是否有误、电脑有无杀毒软件拦截以及配置是否满足重建需求。
 
-以上都问题都排除，请点击![](../../img/cn-img/技术支持图标.png)，扫描二维码加入mipmap售后群，获取技术支持。
+以上都问题都排除，请点击![](/img/cn-img/技术支持图标.png)，扫描二维码加入mipmap售后群，获取技术支持。
 
-点击![](../../img/cn-img/日志图标.png)，可将日志文件导出，发送给技术支持以便分析重建报错原因。
+点击![](/img/cn-img/日志图标.png)，可将日志文件导出，发送给技术支持以便分析重建报错原因。
 
-![](../../img/cn-img/技术支持.png)
+![](/img/cn-img/技术支持.png)
 
 ### 照片读取错误
 
-![](../../img/cn-img/企业微信截图_20260604155001.png)
+![](/img/cn-img/企业微信截图_20260604155001.png)
 
 
 解决方法：
@@ -34,7 +34,7 @@ sidebar_position: 3
 
 <div style="display:flex; justify-content:center;">
 
-<img src="../../img/cn-img/image184.png" width="280">
+<img src="/img/cn-img/image184.png" width="280">
 
 </div>
 
@@ -46,7 +46,7 @@ sidebar_position: 3
 
 ### 没有足够的下视图像生产2D成果
 
-![](../../img/cn-img/企业微信截图_20260604154540.png)
+![](/img/cn-img/企业微信截图_20260604154540.png)
 
 
 原因：数据采集视角不是垂直下视，仅开启二维成果输出。

@@ -18,7 +18,7 @@ sidebar_position: 3
 
 
 
-![](../../img/cn-img/image152.png)
+![](/img/cn-img/image152.png)
 
 
 ### 互联网访问
@@ -33,6 +33,6 @@ sidebar_position: 3
 - 在该界面关闭互联网访问或访问有效期过期，分享即失效。
 
 
-![](../../img/cn-img/image153.png)
+![](/img/cn-img/image153.png)
 
-![](../../img/cn-img/image154.png)
+![](/img/cn-img/image154.png)

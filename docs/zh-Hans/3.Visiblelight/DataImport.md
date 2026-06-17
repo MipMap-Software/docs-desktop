@@ -8,13 +8,13 @@ sidebar_position: 1
 新建项目选择可见光
 
 
-![](../../img/cn-img/image51.png)
+![](/img/cn-img/image51.png)
 
 
 ### 导入图像、视频
 
 
-![](../../img/cn-img/image52.png)
+![](/img/cn-img/image52.png)
 
 
 **导入图像：**
@@ -29,7 +29,7 @@ sidebar_position: 1
 
 选择视频文件导入到当前任务。
 
-![](../../img/cn-img/image53.png)
+![](/img/cn-img/image53.png)
 
 - 添加视频：可继续选择视频文件添加至抽帧列表。
 
@@ -49,7 +49,7 @@ sidebar_position: 1
 
 **未知相机参数可不用设置。**
 
-![](../../img/cn-img/image54.png)
+![](/img/cn-img/image54.png)
 
 - 选择正确的相机类型、填写焦距、像主点、畸变参数。
 
@@ -75,31 +75,31 @@ sidebar_position: 1
 **未知POS可不用设置。**
 
 
-![](../../img/cn-img/image55.png) 
+![](/img/cn-img/image55.png) 
 
-![](../../img/cn-img/image57.png)
+![](/img/cn-img/image57.png)
 
-- 导入POS文件：![](../../img/cn-img/image56.png)选择POS文件导入，姿态角下拉框选择相应的姿态角，每列表头下拉框选择该列相应的POS信息。
-
-
-- 清除POS：![](../../img/cn-img/image58.png)清除当前任务所有图像的POS信息。
+- 导入POS文件：![](/img/cn-img/image56.png)选择POS文件导入，姿态角下拉框选择相应的姿态角，每列表头下拉框选择该列相应的POS信息。
 
 
-- 坐标系：![](../../img/cn-img/image59.png)需选择与POS信息相对应的坐标系与高程系，可通过关键字搜索。若POS为自定义坐标系，则需导入prj文件。
+- 清除POS：![](/img/cn-img/image58.png)清除当前任务所有图像的POS信息。
+
+
+- 坐标系：![](/img/cn-img/image59.png)需选择与POS信息相对应的坐标系与高程系，可通过关键字搜索。若POS为自定义坐标系，则需导入prj文件。
 
 
 <div style="display:flex;">
 
-<img src="../../img/cn-img/image60.png" style="width:50%;">
+<img src="/img/cn-img/image60.png" style="width:50%;">
 
-<img src="../../img/cn-img/image61.png" style="width:50%;">
+<img src="/img/cn-img/image61.png" style="width:50%;">
 
 </div>
 
 - 坐标精度：可选择当前POS信息的精度，建议根据采集设备实际情况选择。精度越高，空三平差优化时POS的权重越高。
 
 
-![](../../img/cn-img/image62.png)
+![](/img/cn-img/image62.png)
 
 - 高程偏移：可输入高程偏移值，当前POS信息中所有高程均按输入值整体偏移。
 
@@ -112,17 +112,17 @@ sidebar_position: 1
 若导入的图像有多余的、不需要重建的，可进行删除。
 
 #### 列表删除
-![](../../img/cn-img/image63.png)
+![](/img/cn-img/image63.png)
 
 1、可将该相机的图像进行删除。
 
 2、可将任务中所有图像进行删除。
 
 #### 框选删除
-![](../../img/cn-img/image64.png)
+![](/img/cn-img/image64.png)
 
-- 点击![](../../img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
-- 在地图上点击鼠标左键或点击![](../../img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
+- 点击![](/img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
+- 在地图上点击鼠标左键或点击![](/img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
 
-- 点击![](../../img/cn-img/image67.png)可删除绘制范围内的照片，点击![](../../img/cn-img/image68.png)可删除绘制范围外的照片，点击![](../../img/cn-img/image69.png)取消当前操作。
+- 点击![](/img/cn-img/image67.png)可删除绘制范围内的照片，点击![](/img/cn-img/image68.png)可删除绘制范围外的照片，点击![](/img/cn-img/image69.png)取消当前操作。
 

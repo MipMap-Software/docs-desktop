@@ -14,21 +14,21 @@ sidebar_position: 1
 
 ### 连接失败，VirBox未安装或未联网、网络或服务器异常
 
-![](../../img/cn-img/企业微信截图_20260604155907.png)
+![](/img/cn-img/企业微信截图_20260604155907.png)
 
 
 解决方法：检查网络是否异常、查看VirBox软件是否安装并打开。
 
 查看VirBox软件是否正常，手动启动virbox服务，如果异常可一键修复。
 
-![](../../img/cn-img/image180.png)
+![](/img/cn-img/image180.png)
 
 
 
-![](../../img/cn-img/image181.png)
+![](/img/cn-img/image181.png)
 
 ### 许可绑定报错
 
-![](../../img/cn-img/企业微信截图_20260604160116.png)
+![](/img/cn-img/企业微信截图_20260604160116.png)
 
 解决方法：检查是否有空格、多余字符或者不是同一个账号。

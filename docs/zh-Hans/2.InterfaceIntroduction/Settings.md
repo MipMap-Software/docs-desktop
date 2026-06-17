@@ -5,13 +5,13 @@ sidebar_position: 1
 
 ## 设置相关
 
-![](../../img/cn-img/20260601153311.png)
+![](/img/cn-img/20260601153311.png)
 
 ### 许可版本
 
-![](../../img/cn-img/20260601154306.png)显示当前绑定的许可版本。若显示与购买的版本不一致，请检查许可证管理。
+![](/img/cn-img/20260601154306.png)显示当前绑定的许可版本。若显示与购买的版本不一致，请检查许可证管理。
 
->![](../../img/cn-img/许可倒计时.png)
+>![](/img/cn-img/许可倒计时.png)
 当许可有效期不足十五天时，会显示许可有限期剩余天数。请留意剩余天数，避免因许可过期导致项目重建失败。
 
 各版本的区别：
@@ -23,16 +23,16 @@ sidebar_position: 1
 
 ### 云空间
 
-点击![](../../img/cn-img/image19.png)进入重建公有云MipMapCloud网页。
+点击![](/img/cn-img/image19.png)进入重建公有云MipMapCloud网页。
 
 登录账号，可查看已上传至云空间的项目。
 
 
-![](../../img/cn-img/image20.png)
+![](/img/cn-img/image20.png)
 
 ### 设置
 
-点击![](../../img/cn-img/image21.png)进入用户设置面板。
+点击![](/img/cn-img/image21.png)进入用户设置面板。
 
 #### 偏好设置
 
@@ -54,7 +54,7 @@ sidebar_position: 1
 
 
 
-![](../../img/cn-img/image22.png)
+![](/img/cn-img/image22.png)
 
 
 #### 许可证管理
@@ -69,7 +69,7 @@ sidebar_position: 1
 
 - 输入激活码：可输入购买的激活码，点击绑定到当前设备。
 
-![](../../img/cn-img/image9.png)
+![](/img/cn-img/image9.png)
 
 
 
@@ -84,7 +84,7 @@ sidebar_position: 1
 AI插件：下载安装后用于提高模型精度和优化模型质量，可卸载。
 
 
-![](../../img/cn-img/image24.png)
+![](/img/cn-img/image24.png)
 
 
 #### 关于
@@ -92,7 +92,7 @@ AI插件：下载安装后用于提高模型精度和优化模型质量，可卸
 显示当前软件版本、SDK版本；若有新版本发布，可点击更新。
 
 
-![](../../img/cn-img/image25.png)
+![](/img/cn-img/image25.png)
 
 
 ### 帮助中心
@@ -105,11 +105,11 @@ AI插件：下载安装后用于提高模型精度和优化模型质量，可卸
 
 
 
-![](../../img/cn-img/image26.png)
+![](/img/cn-img/image26.png)
 
 
 ### 个人中心
 
-点击![](../../img/cn-img/image27.png)可查看当前登录的账号。
+点击![](/img/cn-img/image27.png)可查看当前登录的账号。
 
 点击退出登录，可退出当前账号登录。

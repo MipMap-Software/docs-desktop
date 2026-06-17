@@ -4,7 +4,7 @@ sidebar_position: 5
 ---
 ## 任务参数
 
-![](../../img/cn-img/image130.png)
+![](/img/cn-img/image130.png)
 
 点击任务参数，左侧面板会切换至任务参数选项。
 

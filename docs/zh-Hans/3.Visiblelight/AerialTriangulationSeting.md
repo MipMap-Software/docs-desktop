@@ -10,7 +10,7 @@ sidebar_position: 2
 
 二维、三维成果地理位置精度依赖于POS精度。若POS为高精度，则需将POS坐标精度改为高精度，增加POS的平差权重。
 
-![](../../img/cn-img/image62.png)
+![](/img/cn-img/image62.png)
 
 **设置像控点：**
 
@@ -22,39 +22,39 @@ sidebar_position: 2
 
 - 当拥有高精度POS并且坐标系、高程系均与像控点相同时，可勾选使用影像位置信息约束，联合POS参与平差，以提高成果整体稳定性与绝对定位精度。
 
-  ![](../../img/cn-img/image82.png)
+  ![](/img/cn-img/image82.png)
 
 ### 设置像控点步骤
 
 ①关闭二维成果、三维成果
 
 
-![](../../img/cn-img/image70.png)
+![](/img/cn-img/image70.png)
 
-②开始空三![](../../img/cn-img/image71.png)
+②开始空三![](/img/cn-img/image71.png)
 
-③空三完成后，点击设置像控点![](../../img/cn-img/image72.png)
+③空三完成后，点击设置像控点![](/img/cn-img/image72.png)
 
-④导入控制点![](../../img/cn-img/image73.png)
+④导入控制点![](/img/cn-img/image73.png)
 
 选择控制点文件导入，选择控制点实际的坐标系与高程系，指定"名称、X、Y、Z"每列的表头。
 
 
-![](../../img/cn-img/image74.png)
+![](/img/cn-img/image74.png)
 
 
 ⑤选择照片刺点
 
 
-![](../../img/cn-img/image75.png)
+![](/img/cn-img/image75.png)
 
 选择照片：
 
-可用鼠标左键点击选择照片，![](../../img/cn-img/image76.png)表示该照片可能存在控制点。
+可用鼠标左键点击选择照片，![](/img/cn-img/image76.png)表示该照片可能存在控制点。
 
 刺点操作：
 
-鼠标左键点击照片上的控制点位置即可完成刺点，若![](../../img/cn-img/image77.png)在控制点位置可点击![](../../img/cn-img/image78.png)完成刺点，![](../../img/cn-img/image79.png)![](../../img/cn-img/image80.png)可切换照片，![](../../img/cn-img/image81.png)可清除该照片刺点信息。
+鼠标左键点击照片上的控制点位置即可完成刺点，若![](/img/cn-img/image77.png)在控制点位置可点击![](/img/cn-img/image78.png)完成刺点，![](/img/cn-img/image79.png)![](/img/cn-img/image80.png)可切换照片，![](/img/cn-img/image81.png)可清除该照片刺点信息。
 
 单个控制点刺点不少于 4 张照片，且照片尽量分布在不同航线 /视角、避开边缘。建议刺10张照片左右，保证足够重叠与交会强度。
 
@@ -78,7 +78,7 @@ sidebar_position: 2
 ⑥空三优化
 
 
-![](../../img/cn-img/image82.png)
+![](/img/cn-img/image82.png)
 
 
 刺点完成即可开始空三优化。
@@ -88,7 +88,7 @@ sidebar_position: 2
 ⑦检查误差
 
 
-![](../../img/cn-img/image83.png)
+![](/img/cn-img/image83.png)
 
 
 检查空三优化后的重投影误差、X、Y、Z误差，均满足项目验收标准，即可进行成果重建。

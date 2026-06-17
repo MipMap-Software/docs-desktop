@@ -10,22 +10,22 @@ sidebar_position: 3
 
 进入官网(https://www.mipmap3d.com/)，登录账号，选择MipMapDesktop产品页面，点击旗舰版试用。
 
-![](../../img/cn-img/image7.png)
+![](/img/cn-img/image7.png)
 
 在个人中心的许可证管理中，找到相应的版本许可，点击复制激活码。
 
-![](../../img/cn-img/image8.png)
+![](/img/cn-img/image8.png)
 
 
 点击软件右上角设置图标，打开设置面板
 
-![](../../img/cn-img/image6.png)
+![](/img/cn-img/image6.png)
 
 
 点击许可证管理，粘贴激活码，点击绑定，即可激活软件。
 
 
-![](../../img/cn-img/image9.png)
+![](/img/cn-img/image9.png)
 
 
 
@@ -36,13 +36,13 @@ sidebar_position: 3
 建议用户在第一次登录软件后，将工作目录指定至较大空闲的磁盘空间内。选用SSD磁盘有最佳的性能体验。
 
 
-![](../../img/cn-img/image10.png)
+![](/img/cn-img/image10.png)
 
 
 修改工作目录前需选择是否移动原工程文件，勾选后会将当前工作目录文件移动至新的工作目录，如果文件较大可能会等待较长时间。
 
 
-![](../../img/cn-img/image11.png)
+![](/img/cn-img/image11.png)
 
 
 ### 电脑检查
@@ -50,4 +50,4 @@ sidebar_position: 3
 为了获取更好的性能体验，建议将电源模式设置为**最佳性能**模式，将屏幕和睡眠中的所有电源设置为**从不**。
 
 
-![](../../img/cn-img/image12.png)
+![](/img/cn-img/image12.png)

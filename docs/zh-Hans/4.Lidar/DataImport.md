@@ -7,14 +7,14 @@ sidebar_position: 1
 新建项目选择激光雷达
 
 
-![](../../img/cn-img/image98.png)
+![](/img/cn-img/image98.png)
 
 >**不同厂商解算出的数据略有区别，建议参考该文档导入数据：** [**激光雷达数据导入说明**](https://kwo1egxsbw0.feishu.cn/wiki/XefnwRLYiiIpl8kpwnqcx8Jon6b?from=from_copylink)
 
 ### 导入图像、点云
 
 
-![](../../img/cn-img/image99.png)
+![](/img/cn-img/image99.png)
 
 
 **导入图像：**
@@ -26,7 +26,7 @@ sidebar_position: 1
 选择指定文件夹，可将文件夹中所有图像导入到当前任务。
 
 
-![](../../img/cn-img/image100.png)
+![](/img/cn-img/image100.png)
 
 
 **导入点云：**
@@ -39,7 +39,7 @@ sidebar_position: 1
 
 **导入预制数据：**
 
-点击![](../../img/cn-img/image101.png)，选择mpl文件可快捷导入所有数据。
+点击![](/img/cn-img/image101.png)，选择mpl文件可快捷导入所有数据。
 
 ### 编辑相机
 
@@ -48,7 +48,7 @@ sidebar_position: 1
 若照片中无法解析到相机参数，或者相机参数不正确，则需要编辑相机参数。建议从数据库中选择所使用设备的相机参数。
 
 
-![](../../img/cn-img/image54.png)
+![](/img/cn-img/image54.png)
 
 - 选择正确的相机类型、填写焦距、像主点、畸变参数。
 
@@ -70,24 +70,24 @@ sidebar_position: 1
 ### 编辑POS
 
 
-![](../../img/cn-img/image102.png)
+![](/img/cn-img/image102.png)
 
-![](../../img/cn-img/image104.png)
+![](/img/cn-img/image104.png)
 
-- 导入POS文件：![](../../img/cn-img/image103.png)选择POS文件导入，姿态角下拉框选择相应的姿态角，每列表头下拉框选择该列相应的POS信息
+- 导入POS文件：![](/img/cn-img/image103.png)选择POS文件导入，姿态角下拉框选择相应的姿态角，每列表头下拉框选择该列相应的POS信息
 
 
-- 清除POS：![](../../img/cn-img/image105.png)清除当前任务所有图像的POS信息
+- 清除POS：![](/img/cn-img/image105.png)清除当前任务所有图像的POS信息
 
-- 坐标系：![](../../img/cn-img/image59.png)需选择与POS信息相对应的坐标系与高程系，可通过关键字搜索。若POS为自定义坐标系，则需导入prj文件。
+- 坐标系：![](/img/cn-img/image59.png)需选择与POS信息相对应的坐标系与高程系，可通过关键字搜索。若POS为自定义坐标系，则需导入prj文件。
 
 >注意：LAS点云和图像POS必须在同一个坐标系
 
 <div style="display:flex;">
 
-<img src="../../img/cn-img/image60.png" style="width:50%;">
+<img src="/img/cn-img/image60.png" style="width:50%;">
 
-<img src="../../img/cn-img/image61.png" style="width:50%;">
+<img src="/img/cn-img/image61.png" style="width:50%;">
 
 </div>
 
@@ -95,7 +95,7 @@ sidebar_position: 1
 
 
 
-![](../../img/cn-img/image62.png)
+![](/img/cn-img/image62.png)
 
 - 高程偏移：可输入高程偏移值，当前POS信息中所有高程均按输入值整体偏移。
 
@@ -108,7 +108,7 @@ sidebar_position: 1
 若导入的图像或点云有多余的、不需要重建的，可进行删除。
 
 #### 列表删除
-![](../../img/cn-img/image106.png)
+![](/img/cn-img/image106.png)
 
 
 1、可将该点云或相机的图像进行删除。
@@ -116,9 +116,9 @@ sidebar_position: 1
 2、可将任务中所有点云或图像进行删除。
 
 #### 框选删除
-![](../../img/cn-img/image64.png)
+![](/img/cn-img/image64.png)
 
-- 点击![](../../img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
-- 在地图上点击鼠标左键或点击![](../../img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
+- 点击![](/img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
+- 在地图上点击鼠标左键或点击![](/img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
 
-- 点击![](../../img/cn-img/image67.png)可删除绘制范围内的照片，点击![](../../img/cn-img/image68.png)可删除绘制范围外的照片，点击![](../../img/cn-img/image69.png)取消当前操作。
+- 点击![](/img/cn-img/image67.png)可删除绘制范围内的照片，点击![](/img/cn-img/image68.png)可删除绘制范围外的照片，点击![](/img/cn-img/image69.png)取消当前操作。
