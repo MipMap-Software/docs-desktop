@@ -2,9 +2,10 @@
 title: 软件安装
 sidebar_position: 1
 ---
+
 ## 软件安装
 
-2D/3D重建需要较高的计算资源。为高效稳定重建，建议用户在如下电脑配置下使用本软件进行2D/3D重建。
+2D/3D重建需要较高的计算资源，为高效稳定重建，建议电脑配置如下。
 
 <table>
 <colgroup>
@@ -47,11 +48,15 @@ https://developer.nvidia.com/cuda/gpus
 </tbody>
 </table>
 
-
-双击软件安装包MipMap Desktop.exe，可修改安装目录，点击安装即可完成MipMapDesktop安装。
+双击软件安装包MipMap Desktop.exe，可修改安装目录，点击安装即可。
 
 <div style="display:flex; justify-content:center;">
 
 <img src="../../img/cn-img/image3.png" width="500">
 
 </div>
+
+
+
+
+

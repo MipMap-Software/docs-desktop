@@ -62,8 +62,21 @@
   }
 }
 
-
 .vp-doc th,
 .vp-doc td {
   text-align: center;
+}
+
+/* 定义标注文本块的颜色 */
+.custom-block.tip {
+  --vp-custom-block-tip-bg: #dafbe1a9;
+}
+
+.dark .custom-block.tip {
+  --vp-custom-block-tip-bg: #0f532333;
+}
+
+/* 提示框文字大小与正文一致 */
+.custom-block {
+  font-size: inherit;
 }
