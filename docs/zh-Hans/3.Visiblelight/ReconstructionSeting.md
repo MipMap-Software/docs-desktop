@@ -5,6 +5,8 @@ sidebar_position: 6
 
 ## 重建设置
 
+---
+
 ### 重建模版
 
 ![](../../img/cn-img/模板.png)

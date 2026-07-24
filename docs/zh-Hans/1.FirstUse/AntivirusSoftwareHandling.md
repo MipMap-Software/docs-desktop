@@ -9,7 +9,9 @@ sidebar_position: 4
 
 实际这是因为我们对软件加密造成的误报，从官方渠道(https://www.mipmap3d.com/download)下载的软件，您可以放心使用！
 
-遇到这类情况，我们有两个解决方案：
+遇到这类情况，我们有两个解决方案。
+
+---
 
 ### 恢复隔离文件
 
@@ -20,6 +22,8 @@ sidebar_position: 4
 在可恢复区以及已阻止区找到名称带有mipmap的隔离文件，如下图里的mipmap_desktop.exe，常见的还有mipmap_engine.dll。选中文件，点击恢复所选
 
 ![](../../img/cn-img/image14.png)
+
+---
 
 ### 将软件安装目录加入信任区
 

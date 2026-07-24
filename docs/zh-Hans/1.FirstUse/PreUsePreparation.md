@@ -7,6 +7,8 @@ sidebar_position: 3
 
 软件使用前需要先对软件进行激活以及一些必要的偏好设置。
 
+---
+
 ### 软件激活
 
 1. 进入官网(https://www.mipmap3d.com/)，登录账号，选择MipMapDesktop产品页面，点击旗舰版试用。

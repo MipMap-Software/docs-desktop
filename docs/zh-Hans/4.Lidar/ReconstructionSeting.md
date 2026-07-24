@@ -2,7 +2,10 @@
 title: 重建设置
 sidebar_position: 5
 ---
+
 ## 重建设置
+
+---
 
 ### 重建模版
 

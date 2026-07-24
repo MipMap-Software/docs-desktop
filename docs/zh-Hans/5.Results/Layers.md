@@ -6,6 +6,8 @@ sidebar_position: 1
 
 **点击**![](../../img/cn-img/image116.png)**可折叠/展开图层内容，点击**![](../../img/cn-img/image117.png)**可显示/隐藏图层内容**
 
+---
+
 ### 标注图层
 
 ![](../../img/cn-img/标注图层.png)

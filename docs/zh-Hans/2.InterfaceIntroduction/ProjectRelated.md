@@ -7,6 +7,8 @@ sidebar_position: 2
 
 ![](../../img/cn-img/项目相关2.png)
 
+---
+
 ### 项目搜索
 
 ![](../../img/cn-img/image28.png)可输入项目完整名称或关键字搜索项目。
