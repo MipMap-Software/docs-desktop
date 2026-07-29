@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ### 导入图像/视频
 
-![](../../img/cn-img/image52.png)
+![](/img/cn-img/image52.png)
 
 **导入图像：**
 
@@ -23,7 +23,7 @@ sidebar_position: 2
 
 选择视频文件导入到当前任务。
 
-![](../../img/cn-img/image53.png)
+![](/img/cn-img/image53.png)
 
 - 添加视频：可继续选择视频文件添加至抽帧列表。
 - 开始与结束：可按需设置抽帧开始与结束时间。
@@ -40,7 +40,7 @@ sidebar_position: 2
 
 **列表删除：**
 
-![](../../img/cn-img/image63.png)
+![](/img/cn-img/image63.png)
 
 1、可将该相机的照片进行删除。
 
@@ -48,10 +48,10 @@ sidebar_position: 2
 
 **框选删除：**
 
-![](../../img/cn-img/image64.png)
+![](/img/cn-img/image64.png)
 
-- 点击![](../../img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
-- 在地图上点击鼠标左键或点击![](../../img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
+- 点击![](/img/cn-img/image65.png)图标，可在地图预览界面圈选照片进行删除，被删除的照片将不参与重建。
+- 在地图上点击鼠标左键或点击![](/img/cn-img/image66.png)新建顶点，双击鼠标左键结束绘制；鼠标右键点击顶点可删除顶点，按住鼠标左键可拖动顶点。
 
-- 点击![](../../img/cn-img/image67.png)可删除绘制范围内的照片，点击![](../../img/cn-img/image68.png)可删除绘制范围外的照片，点击![](../../img/cn-img/image69.png)取消当前操作。
+- 点击![](/img/cn-img/image67.png)可删除绘制范围内的照片，点击![](/img/cn-img/image68.png)可删除绘制范围外的照片，点击![](/img/cn-img/image69.png)取消当前操作。
 

@@ -54,7 +54,7 @@ Compared to similar professional software with annual fees of tens of thousands,
 #### Centimeter-Level Accuracy Results
 Integrated DJI RTK/GPS positioning accuracy data auto-parsing, supports ground control point optimization, easily achieving centimeter-level precision reconstruction with or without control points.
 
-![](../img/desktop-manual-en/3d-model-en.webp)
+![](/img/desktop-manual-en/3d-model-en.webp)
 
 #### Seamless DJI Integration
 Automatically reads DJI drone metadata including:
@@ -68,7 +68,7 @@ No configuration needed - just import photos to start processing.
 - **Smart Assisted Point Marking** - Automatically predicts control point positions
 - **Accuracy Reports** - Displays control point residuals
 
-![](../img/desktop-manual-en/gcp-ui-en.webp)
+![](/img/desktop-manual-en/gcp-ui-en.webp)
 
 #### City-Scale Data Processing
 Extreme memory efficiency and intelligent blocking technology enable single-machine processing of massive data (tested processing aerial 60276 images with 16 GB free RAM):
@@ -76,7 +76,7 @@ Extreme memory efficiency and intelligent blocking technology enable single-mach
 - Custom task blocking
 - Resume from breakpoint support
 
-![](../img/desktop-manual-en/at-large-scale.webp)
+![](/img/desktop-manual-en/at-large-scale.webp)
 
 ### AEC Industry: Full Project Lifecycle Management
 
@@ -85,7 +85,7 @@ Unique temporal task management for easy project progress tracking:
 - **Temporal Tasks** - Project-based temporal task management design greatly simplifies task management throughout the project cycle
 - **Temporal Comparison** - Built-in swipe tool makes multi-period data comparison crystal clear
 
-![](../img/desktop-manual-en/side-by-side-en.webp)
+![](/img/desktop-manual-en/side-by-side-en.webp)
 
 #### CAD Drawing Overlay - Compare Design with Reality
 Supports importing DWG, DXF and other design drawings to achieve:
@@ -93,9 +93,9 @@ Supports importing DWG, DXF and other design drawings to achieve:
 - Quick discovery of construction deviations
 - Reality and design fusion display
 
-![](../img/desktop-manual-en/cad-overlay-3d.webp)
+![](/img/desktop-manual-en/cad-overlay-3d.webp)
 
-![](../img/desktop-manual-en/cad-overlay-2d.webp)
+![](/img/desktop-manual-en/cad-overlay-2d.webp)
 
 #### Smart Annotation & Measurement - Enhanced Collaboration
 Comprehensive annotation and measurement tools:
@@ -111,9 +111,9 @@ One-click generation of PDF reports containing all annotations, measurements, an
 - Quality issue documentation
 - Key data archiving
 
-![](../img/desktop-manual-en/annotation-report-overview-en.webp)
+![](/img/desktop-manual-en/annotation-report-overview-en.webp)
 
-![](../img/desktop-manual-en/annotation-report-detail-en.webp)
+![](/img/desktop-manual-en/annotation-report-detail-en.webp)
 
 ### Content Creation: From Reality to Virtual
 

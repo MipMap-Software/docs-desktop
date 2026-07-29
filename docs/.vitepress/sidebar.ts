@@ -11,6 +11,7 @@ type CategoryMeta = {
 type FrontmatterMeta = {
   title?: string;
   sidebar_position?: number;
+  ignore?: boolean;
 };
 
 type SidebarNode = {
@@ -37,6 +38,14 @@ function parseCategoryMeta(dirPath: string): CategoryMeta {
   } catch {
     return {};
   }
+}
+
+function parseFrontmatterValue(value: string): string {
+  return value.replace(/^["']|["']$/g, "").replace(/,\s*$/, "").trim();
+}
+
+function parseBooleanFrontmatterValue(value: string): boolean {
+  return parseFrontmatterValue(value).toLowerCase() === "true";
 }
 
 function parseFrontmatter(filePath: string): FrontmatterMeta {
@@ -68,9 +77,11 @@ function parseFrontmatter(filePath: string): FrontmatterMeta {
       continue;
     }
 
-    const [, key, value] = match;
+    const [, key, rawValue] = match;
+    const value = parseFrontmatterValue(rawValue);
+
     if (key === "title") {
-      meta.title = value.replace(/^["']|["']$/g, "");
+      meta.title = value;
       continue;
     }
 
@@ -79,6 +90,11 @@ function parseFrontmatter(filePath: string): FrontmatterMeta {
       if (!Number.isNaN(parsed)) {
         meta.sidebar_position = parsed;
       }
+      continue;
+    }
+
+    if (key === "ignore") {
+      meta.ignore = parseBooleanFrontmatterValue(rawValue);
     }
   }
 
@@ -158,6 +174,10 @@ function collectNodes(
     }
 
     const frontmatter = parseFrontmatter(fullPath);
+    if (frontmatter.ignore) {
+      continue;
+    }
+
     nodes.push({
       text: frontmatter.title ?? normalizeText(entry.name),
       position: frontmatter.sidebar_position,

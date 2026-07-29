@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## 体积测量
 
-![](../../img/cn-img/体积测量.png)
+![](/img/cn-img/体积测量.png)
 
 ---
 

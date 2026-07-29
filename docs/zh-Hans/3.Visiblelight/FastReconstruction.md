@@ -9,15 +9,15 @@ sidebar_position: 1
 
 ### 1.新建项目
 
-点击新建项目![](../../img/cn-img/新建项目.png)，输入项目名称，任务类型选择可见光。
+点击新建项目![](/img/cn-img/新建项目.png)，输入项目名称，任务类型选择可见光。
 
-![](../../img/cn-img/image51.png)
+![](/img/cn-img/image51.png)
 
 ---
 
 ### 2.导入数据
 
-![](../../img/cn-img/image52.png)
+![](/img/cn-img/image52.png)
 
 照片文件点击导入文件夹，选择照片文件夹导入。
 
@@ -29,10 +29,10 @@ sidebar_position: 1
 
 选择重建模版；或者手动选择需要的二维成果、三维成果格式、成果坐标系。
 
-![](../../img/cn-img/成果勾选.png)
+![](/img/cn-img/成果勾选.png)
 
 ---
 
 ### 4.开始重建
 
-点击开始重建![](../../img/cn-img/开始重建.png)
+点击开始重建![](/img/cn-img/开始重建.png)

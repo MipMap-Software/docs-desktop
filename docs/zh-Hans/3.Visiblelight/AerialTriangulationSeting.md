@@ -10,7 +10,7 @@ sidebar_position: 5
 
 从模板中选择空三，点击开始空三
 
-![](../../img/cn-img/开始空三.png)
+![](/img/cn-img/开始空三.png)
 
 ---
 
@@ -18,7 +18,7 @@ sidebar_position: 5
 
 空三完成后可在右上角点击相机图标，开启相机位姿显示。
 
-![](../../img/cn-img/空三完成.png)
+![](/img/cn-img/空三完成.png)
 
 
 > [!warning] 检查要点：
@@ -32,24 +32,24 @@ sidebar_position: 5
 
 ### 导入像控点
 
-空三完成后，点击设置像控点![](../../img/cn-img/设置像控点.png)
+空三完成后，点击设置像控点![](/img/cn-img/设置像控点.png)
 
-![](../../img/cn-img/导入控制点.png)
+![](/img/cn-img/导入控制点.png)
 
 
-进入像控点界面后，点击导入控制点![](../../img/cn-img/image73.png)
+进入像控点界面后，点击导入控制点![](/img/cn-img/image73.png)
 
 选择控制点文件导入，选择控制点实际的坐标系与高程系，指定"名称、X、Y、Z"每列的表头。
 
 
-![](../../img/cn-img/image74.png)
+![](/img/cn-img/image74.png)
 
 ---
 
 ### 刺点
 
 
-![](../../img/cn-img/刺点.png)
+![](/img/cn-img/刺点.png)
 
 #### 1.选择控制点
 
@@ -67,7 +67,7 @@ sidebar_position: 5
 
 可用鼠标左键点击右侧照片列表选择照片进行刺点。
 
-右上角有![](../../img/cn-img/image76.png)图标的照片可能存在控制点。
+右上角有![](/img/cn-img/image76.png)图标的照片可能存在控制点。
 
 #### 3.刺点操作
 
@@ -77,9 +77,9 @@ sidebar_position: 5
 
 依次切换选择照片，重复刺点操作。单个控制点刺点不少于 4 张照片，且照片尽量分布在不同航线 /视角、避开边缘。建议刺 10 张照片左右，保证足够重叠与交会强度。
 
-若切换的照片![](../../img/cn-img/image77.png)预测在控制点位置，可点击![](../../img/cn-img/image78.png)快速完成刺点。
+若切换的照片![](/img/cn-img/image77.png)预测在控制点位置，可点击![](/img/cn-img/image78.png)快速完成刺点。
 
-![](../../img/cn-img/image79.png)![](../../img/cn-img/image80.png)可切换照片，![](../../img/cn-img/image81.png)可清除该照片刺点信息。
+![](/img/cn-img/image79.png)![](/img/cn-img/image80.png)可切换照片，![](/img/cn-img/image81.png)可清除该照片刺点信息。
 
 **其他操作：**
 - 导出刺点：将当前刺点信息导出为json文件。
@@ -92,7 +92,7 @@ sidebar_position: 5
 ### 空三优化
 
 
-![](../../img/cn-img/image82.png)
+![](/img/cn-img/image82.png)
 
 
 刺点完成即可开始空三优化。
@@ -102,6 +102,6 @@ sidebar_position: 5
 
 空三优化完成后，检查重投影误差、X、Y、Z误差，均满足项目验收标准，即可进行成果重建。
 
-![](../../img/cn-img/image83.png)
+![](/img/cn-img/image83.png)
 
 

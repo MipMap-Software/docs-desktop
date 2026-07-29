@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ## 标点测量
 
-![](../../img/cn-img/点测量.png)
+![](/img/cn-img/点测量.png)
 
 ---
 

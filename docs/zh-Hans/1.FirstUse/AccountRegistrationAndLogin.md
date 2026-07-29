@@ -11,7 +11,7 @@ sidebar_position: 2
 >2. 输入手机号与密码，获取验证码。
 >3. 填入收到的验证码，即可完成注册。
 
-![](../../img/cn-img/image5.png)
+![](/img/cn-img/image5.png)
 
 ---
 ### 登录账号
@@ -22,7 +22,7 @@ sidebar_position: 2
 
 > [!warning] 请在信任的设备上进行该操作，以免造成账号泄露。
 
-![](../../img/cn-img/image4.png)
+![](/img/cn-img/image4.png)
 
 
 

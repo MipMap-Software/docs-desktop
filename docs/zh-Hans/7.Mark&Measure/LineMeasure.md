@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 标线测量
 
-![](../../img/cn-img/线测量.png)
+![](/img/cn-img/线测量.png)
 
 ---
 

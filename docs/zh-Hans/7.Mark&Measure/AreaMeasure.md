@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## 标面测量
 
-![](../../img/cn-img/面测量.png)
+![](/img/cn-img/面测量.png)
 
 ---
 

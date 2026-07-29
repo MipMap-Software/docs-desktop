@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## 端云同步
 
-![](../../img/cn-img/端云同步.png)
+![](/img/cn-img/端云同步.png)
 
 > [!TIP] 点击跳转
 更多端云同步相关操作：
@@ -19,21 +19,20 @@ sidebar_position: 3
 
 分为以下三种状态
 
-![](../../img/cn-img/image43.png)：表示该项目只存在于本地，可点击图标上传至云空间。
+![](/img/cn-img/image43.png)：表示该项目只存在于本地，可点击图标上传至云空间。
 
-![](../../img/cn-img/image44.png)：表示该项目本地与云空间都存在，可点击图标重新上传或下载。
+![](/img/cn-img/image44.png)：表示该项目云空间与本地都存在，可点击图标重新上传或下载。
 
-![](../../img/cn-img/image45.png)：表示该项目只存在于云空间，可点击图标下载至本地。
+![](/img/cn-img/image45.png)：表示该项目只存在于云空间，可点击图标下载至本地。
 
 ---
 
 ### 传输列表
 
-- 点击![](../../img/cn-img/image49.png)，显示上传或下载的项目列表。
+- 点击![](/img/cn-img/image49.png)，显示上传或下载的项目列表。
 
 - 点击清除已完成，可将已传输完成的任务从列表中清除。
 
-- 点击![](../../img/cn-img/删除图标.png)，可删除该条任务信息。
+- 点击![](/img/cn-img/删除图标.png)，可删除该条任务信息。
 
-![](../../img/cn-img/image50.png)
-
+![](/img/cn-img/image50.png)

@@ -9,23 +9,23 @@ sidebar_position: 6
 
 ### 重建模版
 
-![](../../img/cn-img/模板.png)
+![](/img/cn-img/模板.png)
 
 >[!tip]模板功能用于快速复用自定义的重建参数配置，提升重建作业配置效率。
 
 - 点击模板下拉框，可选择自定义模板或者系统内置模板。
 
-- 点击模板右侧![](../../img/cn-img/查看模板.png)图标，可查看模板所有参数设置。
+- 点击模板右侧![](/img/cn-img/查看模板.png)图标，可查看模板所有参数设置。
 
-- 点击模板右侧![](../../img/cn-img/删除模板.png)图标，可删除该模板。
+- 点击模板右侧![](/img/cn-img/删除模板.png)图标，可删除该模板。
 
-- 点击下方![](../../img/cn-img/保存模板.png)，可将当前重建参数保存至自定义模版。
+- 点击下方![](/img/cn-img/保存模板.png)，可将当前重建参数保存至自定义模版。
 
 ---
 
 ### 重建质量
 
-![](../../img/cn-img/重建质量.png)
+![](/img/cn-img/重建质量.png)
 
 
 
@@ -64,13 +64,13 @@ sidebar_position: 6
 
 ### 感兴趣区域/分块
 
-![](../../img/cn-img/分块.png)
+![](/img/cn-img/分块.png)
 
 感兴趣区域指成果重建范围，软件默认为最大化范围输出成果。
 
-若需要指定范围输出成果，可点击![](../../img/cn-img/设置ROI.png)进入设置界面。
+若需要指定范围输出成果，可点击![](/img/cn-img/设置ROI.png)进入设置界面。
 
-![](../../img/cn-img/image85.png)
+![](/img/cn-img/image85.png)
 
 #### 设置感兴趣区域
 
@@ -79,14 +79,14 @@ sidebar_position: 6
 - 最大化：自动生成最大范围。
 - 导入KML：将KML格式的范围线导入到当前工程。
 
-- 手动编辑ROI：点击![](../../img/cn-img/image86.png)出现ROI所有节点，鼠标左键按住![](../../img/cn-img/image87.png)可拖动节点，鼠标右键点击![](../../img/cn-img/image87.png)可删除节点，鼠标左键点击![](../../img/cn-img/image88.png)可增加节点。
+- 手动编辑ROI：点击![](/img/cn-img/image86.png)出现ROI所有节点，鼠标左键按住![](/img/cn-img/image87.png)可拖动节点，鼠标右键点击![](/img/cn-img/image87.png)可删除节点，鼠标左键点击![](/img/cn-img/image88.png)可增加节点。
 - 高度调节：可输入最小值、最大值调节重建的高度范围。
 
-![](../../img/cn-img/image89.png)
+![](/img/cn-img/image89.png)
 
 #### 设置分块
 
-![](../../img/cn-img/image90.png)
+![](/img/cn-img/image90.png)
 
 - 自动分块：根据当前设备的内存大小自动分块。
 

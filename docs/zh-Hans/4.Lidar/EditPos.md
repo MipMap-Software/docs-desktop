@@ -5,11 +5,11 @@ sidebar_position: 4
 
 ## 编辑POS
 
-![](../../img/cn-img/编辑pos2.png)
+![](/img/cn-img/编辑pos2.png)
 
 点击POS图标，进入编辑POS界面。
 
-![](../../img/cn-img/image55.png) 
+![](/img/cn-img/image55.png) 
 
 ---
 
@@ -17,7 +17,7 @@ sidebar_position: 4
 
 选择POS文件导入，姿态角下拉框选择相应的姿态角，每列表头下拉框选择该列相应的名称、位置XYZ、姿态角。
 
-![](../../img/cn-img/导入pos.png)
+![](/img/cn-img/导入pos.png)
 
 ---
 
@@ -29,9 +29,9 @@ sidebar_position: 4
 
 <div style="display:flex;">
 
-<img src="../../img/cn-img/image60.png" style="width:50%;">
+<img src="/img/cn-img/image60.png" style="width:50%;">
 
-<img src="../../img/cn-img/image61.png" style="width:50%;">
+<img src="/img/cn-img/image61.png" style="width:50%;">
 
 </div>
 
@@ -39,7 +39,7 @@ sidebar_position: 4
 
 ### 其它选项
 
-![](../../img/cn-img/image62.png)
+![](/img/cn-img/image62.png)
 
 > [!tip]激光雷达POS为默认高精度，不需要修改。
 

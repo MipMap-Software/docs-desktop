@@ -26,9 +26,9 @@ sidebar_position: 1
 
 ### 2.新建项目
 
-点击新建项目![](../../img/cn-img/新建项目.png)，输入项目名称，任务类型选择激光雷达。
+点击新建项目![](/img/cn-img/新建项目.png)，输入项目名称，任务类型选择激光雷达。
 
-![](../../img/cn-img/新建激光任务.png)
+![](/img/cn-img/新建激光任务.png)
 
 ---
 
@@ -48,9 +48,9 @@ sidebar_position: 1
 
 :::
 
-![](../../img/cn-img/雷达数据.png)
+![](/img/cn-img/雷达数据.png)
 
-![](../../img/cn-img/雷达pos.png)
+![](/img/cn-img/雷达pos.png)
 
 ---
 
@@ -58,11 +58,11 @@ sidebar_position: 1
 
 选择重建模版；或者手动选择需要的三维成果格式、成果坐标系。
 
-![](../../img/cn-img/激光快速重建.png)
+![](/img/cn-img/激光快速重建.png)
 
 ---
 
 ### 5.开始重建
 
-点击开始重建![](../../img/cn-img/开始重建.png)
+点击开始重建![](/img/cn-img/开始重建.png)
 

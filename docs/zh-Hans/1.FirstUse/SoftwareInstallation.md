@@ -58,7 +58,7 @@ https://developer.nvidia.com/cuda/gpus
 
 <div style="display:flex; justify-content:center;">
 
-<img src="../../img/cn-img/image3.png" width="500">
+<img src="/img/cn-img/image3.png" width="500">
 
 </div>
 

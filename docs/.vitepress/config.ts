@@ -97,10 +97,6 @@ export default defineConfig({
       });
     },
   },
-  rewrites: {
-    "zh-Hans/1.FirstUse/SoftwareInstallation.md": "zh-Hans/index.md",
-    "en/1.Overview.md": "en/index.md",
-  },
   themeConfig: {
     search: {
       provider: "local",
