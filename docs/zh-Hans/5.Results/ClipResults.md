@@ -13,7 +13,7 @@ sidebar_position: 4
 
 - 可见光项目，无pos或本地坐标系数据重建的成果不支持裁切。
 
-- 裁切会对成果文件进行修改，该修改**不可撤回**。请慎重操作，或者先备份成果。
+- 裁切会对成果文件进行修改，该修改应用后<strong style="color:#d92121">不可撤回</strong>。请慎重操作，或者先备份成果。
 
 - 裁切只会裁切dom_tiles、model-b3dm、model-gs-sog-tile三种格式。
 

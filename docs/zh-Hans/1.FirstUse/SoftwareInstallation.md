@@ -9,15 +9,15 @@ sidebar_position: 1
 
 <table>
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
+<col style="width: 8%" />
+<col style="width: 41%" />
+<col style="width: 41%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><strong>资源</strong></th>
 <th><strong>最低配置</strong></th>
-<th><strong>推荐配置</strong></th>
+<th><strong style="color:#009944">推荐配置</strong></th>
 </tr>
 </thead>
 <tbody>
