@@ -30,7 +30,7 @@ sidebar_position: 1
 更多标注相关操作：
 [**标点测量**](../7.Mark&Measure/PointMeasure.md)、
 [**标线测量**](../7.Mark&Measure/LineMeasure.md)、
-[**标面测量**](../7.Mark&Measure/AreaMeasure.md)、
+[**标面测量**](../7.Mark&Measure/PolygonMeasure.md)、
 [**体积测量**](../7.Mark&Measure/VolumeMeasure.md)
 
 ---
