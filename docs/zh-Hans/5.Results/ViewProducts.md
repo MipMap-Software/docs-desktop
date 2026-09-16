@@ -30,7 +30,7 @@ sidebar_position: 6
 
 3D文件夹里存放所有的三维成果。
 
-![](/img/cn-img/企业微信截图_20260604121849.png)
+![](/img/cn-img/result3d.png)
 
 #### 网格模型成果
 -   model-b3dm：3DTiles格式的三维模型成果。
@@ -45,13 +45,21 @@ sidebar_position: 6
 -   model-gs-ply：PLY格式的高斯模型成果。
 -   model-gs-sog：SOG格式的高斯模型成果。
 -   model-gs-sog-tile：SOGTile格式的高斯模型成果。
-
+-   model-gs-splat-tile：SplatTile格式的高斯模型成果。
 
 #### 点云模型成果
 -   point-las：LAS格式的点云成果。
 -   point-osgb：OSGB格式的点云成果。
 -   point-ply：PLY格式的点云成果。
 -   point-pnts：PNTS格式的点云成果。
+
+---
+
+### 空三成果
+
+AT文件夹存放空三成果文件，mvs为原始空三成果，mvs_undistort为去畸变空三成果。
+
+![](/img/cn-img/企业微信截图_20260604123031.png)
 
 ---
 
@@ -77,13 +85,7 @@ thumbnail文件夹存放任务缩略图。
 
 -   rgb_thumbnail_4K：4K高清DOM缩略图。
 
----
 
-### 空三成果
-
-AT文件夹存放空三成果文件，mvs为原始空三成果，mvs_undistort为去畸变空三成果。
-
-![](/img/cn-img/企业微信截图_20260604123031.png)
 
 
 
