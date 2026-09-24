@@ -11,8 +11,8 @@ sidebar_position: 3
 更多端云同步相关操作：
 [**上传至云端**](../8.Cloud/ProjectUpload.md)、
 [**下载至本地**](../8.Cloud/ProjectDownload.md)、
-[**分享成果**](../8.Cloud/ShareResults.md)
-
+[**分享成果**](../8.Cloud/ShareResults.md)、
+[**多设备项目迁移**](../8.Cloud/MultiDeviceProjectMigration)
 ---
 
 ### 端云同步状态说明

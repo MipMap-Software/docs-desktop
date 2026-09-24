@@ -11,7 +11,8 @@ sidebar_position: 3
 For more device-cloud synchronization operations:
 [**Upload to Cloud**](../8.Cloud/ProjectUpload.md),
 [**Download to Local**](../8.Cloud/ProjectDownload.md),
-[**Share Results**](../8.Cloud/ShareResults.md)
+[**Share Results**](../8.Cloud/ShareResults.md),
+[**Multi-Device Project Migration**](../8.Cloud/MultiDeviceProjectMigration#cloud-project-upload-and-download)
 
 ---
 

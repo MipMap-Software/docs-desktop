@@ -68,7 +68,8 @@ AT（只有空三）、2D（有2D成果）、3D（有3D成果）、GS（有高�
 
 ### 导入项目
 
-![](/img/cn-img/image39.png)选择mprj格式的工程文件，导入到当前项目列表。
+![](/img/cn-img/image39.png)选择mprj格式的工程文件，导入到当前项目列表。可用于[**多设备项目迁移**](../8.Cloud/MultiDeviceProjectMigration#本地导出与导入项目)
+
 
 ---
 

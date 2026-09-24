@@ -1,6 +1,6 @@
-import {readFileSync, readdirSync, existsSync} from "node:fs";
+import { readFileSync, readdirSync, existsSync } from "node:fs";
 import path from "node:path";
-import type {DefaultTheme} from "vitepress";
+import type { DefaultTheme } from "vitepress";
 
 type CategoryMeta = {
   label?: string;
@@ -41,7 +41,10 @@ function parseCategoryMeta(dirPath: string): CategoryMeta {
 }
 
 function parseFrontmatterValue(value: string): string {
-  return value.replace(/^["']|["']$/g, "").replace(/,\s*$/, "").trim();
+  return value
+    .replace(/^["']|["']$/g, "")
+    .replace(/,\s*$/, "")
+    .trim();
 }
 
 function parseBooleanFrontmatterValue(value: string): boolean {
@@ -119,10 +122,14 @@ function sortNodes(a: SidebarNode, b: SidebarNode): number {
 }
 
 function toRoutePath(routePrefix: string, relativePath: string): string {
-  const normalizedRelative = relativePath.replace(/\\/g, "/").replace(/\.md$/, "");
+  const normalizedRelative = relativePath
+    .replace(/\\/g, "/")
+    .replace(/\.md$/, "");
+
   if (normalizedRelative === "index") {
     return routePrefix;
   }
+
   return `${routePrefix}${normalizedRelative}`;
 }
 
@@ -132,13 +139,17 @@ function collectNodes(
   routePrefix: string,
   options: BuildSidebarOptions,
 ): SidebarNode[] {
-  const entries = readdirSync(currentDir, {withFileTypes: true});
+  const entries = readdirSync(currentDir, { withFileTypes: true });
   const nodes: SidebarNode[] = [];
   const isTopLevel = path.resolve(currentDir) === path.resolve(contentRoot);
   const ignoredTopLevelDirSet = new Set(options.ignoredTopLevelDirs ?? []);
 
   for (const entry of entries) {
-    if (entry.name === ".vitepress" || entry.name === "public" || entry.name.startsWith(".")) {
+    if (
+      entry.name === ".vitepress" ||
+      entry.name === "public" ||
+      entry.name.startsWith(".")
+    ) {
       continue;
     }
 
@@ -155,10 +166,18 @@ function collectNodes(
         continue;
       }
 
+      const indexPath = path.join(fullPath, "index.md");
+      let dirLink: string | undefined;
+      if (existsSync(indexPath)) {
+        const indexRelative = path.relative(contentRoot, indexPath);
+        dirLink = toRoutePath(routePrefix, indexRelative);
+      }
+
       nodes.push({
         text: meta.label ?? entry.name,
         position: meta.position,
         collapsed: meta.collapsed ?? false,
+        link: dirLink,
         items,
       });
       continue;
@@ -168,8 +187,12 @@ function collectNodes(
       continue;
     }
 
+
     const relativePath = path.relative(contentRoot, fullPath);
-    if (relativePath.endsWith("/index.md") || relativePath.endsWith("\\index.md")) {
+    if (
+      relativePath.endsWith("/index.md") ||
+      relativePath.endsWith("\\index.md")
+    ) {
       continue;
     }
 
@@ -194,6 +217,7 @@ function toThemeSidebar(nodes: SidebarNode[]): DefaultTheme.SidebarItem[] {
       return {
         text: node.text,
         collapsed: node.collapsed ?? false,
+        link: node.link,
         items: toThemeSidebar(node.items),
       } satisfies DefaultTheme.SidebarItem;
     }
@@ -205,7 +229,10 @@ function toThemeSidebar(nodes: SidebarNode[]): DefaultTheme.SidebarItem[] {
   });
 }
 
-export function buildSidebar(contentRoot: string, routePrefix: string): DefaultTheme.SidebarItem[] {
+export function buildSidebar(
+  contentRoot: string,
+  routePrefix: string,
+): DefaultTheme.SidebarItem[] {
   return buildSidebarWithOptions(contentRoot, routePrefix, {});
 }
 
@@ -218,6 +245,11 @@ export function buildSidebarWithOptions(
     return [];
   }
 
-  const normalizedPrefix = routePrefix.endsWith("/") ? routePrefix : `${routePrefix}/`;
-  return toThemeSidebar(collectNodes(contentRoot, contentRoot, normalizedPrefix, options));
+  const normalizedPrefix = routePrefix.endsWith("/")
+    ? routePrefix
+    : `${routePrefix}/`;
+
+  return toThemeSidebar(
+    collectNodes(contentRoot, contentRoot, normalizedPrefix, options),
+  );
 }

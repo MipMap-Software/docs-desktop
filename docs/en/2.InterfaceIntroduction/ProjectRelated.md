@@ -68,6 +68,8 @@ AT (Aerial Triangulation only), 2D (2D outputs available), 3D (3D outputs availa
 
 ![](/img/en-img/image39.png) Select an `mprj` project file to import it into the project list.
 
+Available for [**Multi-Device Project Migration**](../8.Cloud/MultiDeviceProjectMigration#local-project-export-and-import)
+
 ---
 
 ### Refresh Projects
