@@ -1,4 +1,6 @@
 {
   "label": "主界面介绍",
-  "position": 2
+  "position": 2,
+  "link": "./",
+  "collapsible": true
 } 
