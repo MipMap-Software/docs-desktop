@@ -3,11 +3,6 @@ title: Point Measurement
 sidebar_position: 1
 ---
 
-
-After reconstruction, you can perform annotation-based measurement on 2D and 3D outputs on the map. Gaussian-Splatting outputs do not support measurement.
-
->[!warning] If POS position information for images is unavailable, outputs can only be viewed and cannot be measured.
-
 ## Point Measurement
 
 ![](/img/en-img/point.png)

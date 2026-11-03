@@ -1,4 +1,6 @@
 {
   "label": "Results",
-  "position": 5
+  "position": 5,
+  "link": "./",
+  "collapsible": true
 } 

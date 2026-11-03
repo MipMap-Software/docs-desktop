@@ -1,6 +1,6 @@
 ---
 title: Crop Results
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 ## Crop Results
@@ -24,7 +24,7 @@ After reconstruction completes, you can edit products and crop unwanted portions
 
 ![](/img/en-img/crop.png)
 
-::: tip Operation Steps
+::: tip Steps：
 
 1. Select the output format to crop: 2D / 3D / GS.
 

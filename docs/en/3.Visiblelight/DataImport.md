@@ -31,6 +31,7 @@ Select a video file to import into the current task.
 - Automatic pose extraction: When enabled, extracted frames will automatically match POS information from the SRT file sharing the same video filename. (SRT refers to DJI drone subtitle files)
 - Uniform Interval: After configuration, all videos in the current list will extract frames using the configured time interval.
 
+> [!warning] For panoramic cameras, import the original panoramic video. Panoramic images and edited MP4 files are not supported.
 ---
 
 ### Delete Photos

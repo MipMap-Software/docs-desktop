@@ -1,13 +1,10 @@
 ﻿---
 title: 3D Products
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 ## 3D Products
 
-Click the icon ![](/img/cn-img/image92.png) to enable 3D Products.
-
-![](/img/en-img/3d.png)
 
 ---
 
@@ -15,21 +12,11 @@ Click the icon ![](/img/cn-img/image92.png) to enable 3D Products.
 
 ![](/img/en-img/model.png)
 
-- When Textured Model export is enabled, B3DM and OSGB formats are exported by default.
-- Click the dropdown box to select desired products formats.
-- Water Surface Flattening: When enabled, water surfaces will be flattened and optimized. This function only takes effect when photos contain geolocation information.
-- Model Simplification Ratio: Drag the slider to set the model simplification ratio. A lower ratio reduces model details and file size.
-- Remove Floating Artifacts: When enabled, floating artifacts in the model will be removed during products.
+>[!tip] When model export is enabled, point clouds in PNTS and LAS formats and mesh models in B3DM and OSGB formats are exported by default.
 
----
-
-### Point Cloud
-
-![](/img/en-img/pointcloud.png)
-
-- When point cloud export is enabled, PNTS and LAS formats are exported by default.
-- Click the dropdown box to select desired products formats.
-
+Output formats are customizable: you can disable unwanted outputs. Click the dropdown list to select the target format for export.
+- **Model Simplification Ratio**: Drag the slider to set the simplification ratio. A lower ratio reduces model details and file size.
+- **Remove Floating Objects**: When enabled, floating objects in the model will be removed during export.
 
 ---
 
@@ -37,10 +24,14 @@ Click the icon ![](/img/cn-img/image92.png) to enable 3D Products.
 
 ![](/img/en-img/gs.png)
 
-- When Gaussian Splatting is enabled, SOGTiles, PLY and SOG formats are exported by default.
-- Max Gaussian Points: Defaults to Auto. You can customize the Gaussian point count to control the size of Gaussian productss.
-- People Removal: When enabled, the influence of people in frames on Gaussian productss can be eliminated.
-- Click the dropdown box to select desired products formats.
+>[!tip] When Gaussian Splatting is enabled, PlayCanvas LOD and PLY formats are exported by default.
+
+Output formats are customizable: you can disable unwanted outputs. Click the dropdown list to select the target format for export.
+
+- **Max Image Edge**: If the long edge of an image exceeds 4096 pixels, it will be automatically downsampled to a resolution of 4096 during training. Select Unlimited to retain the full original resolution and achieve a higher-fidelity Gaussian model.
+
+- **Max Gaussian Points**: Defaults to Auto. You can customize the Gaussian point count to control the size of Gaussian productss.
+
 > [!tip] A Gaussian PLY with one million points is approximately 90 MB. Adjust the Gaussian point count as needed.
 
 ---

@@ -1,6 +1,6 @@
 ﻿---
 title: Reconstruction Settings
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## Reconstruction Settings
@@ -22,6 +22,17 @@ sidebar_position: 6
 - Click ![](/img/en-img/savetemp.png) below to save current reconstruction parameters as a custom template.
 
 ---
+
+### AI Mask
+
+![](/img/en-img/aimask.png)
+
+Click the AI Mask dropdown to select a mask for improved reconstruction results.
+
+
+- **Human**: For datasets with occlusions caused by people in images. Detects people and eliminates human-related artifacts in Gaussian Splatting results.
+
+- **Water**: For datasets with large water areas in the survey region and available location information. Detects water surfaces and fills and flattens them in the point cloud and textured model.
 
 ### Reconstruction Quality
 

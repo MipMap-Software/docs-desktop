@@ -1,6 +1,6 @@
 ---
 title: Export Results
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Export Results
@@ -11,7 +11,7 @@ sidebar_position: 5
 
 Export products for the full extent of the current view. If products have been cropped, the cropped version will be exported.
 
-:::tip Operation Steps
+:::tip Steps：
 
 1. Select the output type to export: 2D / 3D / GS.
 
@@ -42,7 +42,7 @@ Export products for the full extent of the current view. If products have been c
 
 Draw a boundary over products to crop and export data within the selected area. This does not modify project source products.
 
-:::tip Operation Steps
+:::tip Steps：
 
 1. Select the output format to export: 2D / 3D / GS.
 

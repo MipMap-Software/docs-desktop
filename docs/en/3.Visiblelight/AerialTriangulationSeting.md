@@ -1,6 +1,6 @@
 ﻿---
 title: Set GCP
-sidebar_position: 5
+sidebar_position: 6
 ---
 ## Set GCP
 
@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ### Start Aerial Triangulation
 
-Select Aerial Triangulation from the template and click to start aerial triangulation.
+After importing the photos, click **Start AT** to  initiate aerial triangulation.
 
 ![](/img/en-img/at.png)
 
@@ -25,6 +25,7 @@ After aerial triangulation completes, click the camera icon in the upper-right c
 >- Camera Pose: Verify whether camera position and orientation match the actual acquisition status.
 >- Point Cloud: Check whether the point cloud has layering artifacts and is uniform without gaps.
 
+Cameras and tie points with matching errors can be edited and deleted. [**Aerotriangulation Edit**](../3.Visiblelight/AerotriangulationEdit.md)
 
 Proceed to Set GCP if aerial triangulation quality is acceptable.
 
