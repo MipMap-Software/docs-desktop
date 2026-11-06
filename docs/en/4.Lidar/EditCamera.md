@@ -19,10 +19,10 @@ If camera parameters cannot be parsed from photos or the parsed parameters are i
 
 ### Fixed Parameters
 
-- Not Fixed: All camera parameters participate in iterative optimization during aerial triangulation.
-- Fix Intrinsics: Lock focal length F and principal point Cx/Cy; only distortion parameters are optimized.
-- Fix Distortion: Lock all distortion coefficients K1/K2/K3/P1/P2; only basic intrinsic parameters F/Cx/Cy are optimized.
-- Fix All: All camera parameters are fully locked and excluded from optimization.
+- **None** : All camera parameters participate in iterative optimization during aerial triangulation.
+- **Intrinsics** : Lock focal length F and principal point Cx/Cy; only distortion parameters are optimized.
+- **Distortion** : Lock all distortion coefficients K1/K2/K3/P1/P2; only basic intrinsic parameters F/Cx/Cy are optimized.
+- **All** : All camera parameters are fully locked and excluded from optimization.
 
 ---
 
@@ -52,15 +52,15 @@ When persistent obstructions such as people, brackets, gimbals, camera bodies or
 
 **Other Operations**
 
-- Rectangle: Click Rectangle, hold the left mouse button and drag to draw a rectangular mask.
-- Circle: Click Circle, hold the left mouse button and drag to draw a circular mask.
-- Undo: Revert the latest drawing action; keyboard shortcut `Ctrl+Z`.
-- Redo: Restore the state before undo; keyboard shortcut `Ctrl+Y`.
-- Clear: Erase all masks drawn on the current image.
-- Reference Base Image: Expand the photo list and select an image for mask editing.
-- Layer Control: Toggle visibility of base image and mask overlay.
-- Import Mask: Import an exported Mask PNG or custom-drawn mask file. Only pure-black pixels with RGB (0,0,0) will be recognized as masked regions.
-- Save As: Export the drawn mask as a Mask PNG file for later import.
+- **Rectangle** : Click Rectangle, hold the left mouse button and drag to draw a rectangular mask.
+- **Circle** : Click Circle, hold the left mouse button and drag to draw a circular mask.
+- **Undo** : Revert the latest drawing action; keyboard shortcut `Ctrl+Z`.
+- **Redo** : Restore the state before undo; keyboard shortcut `Ctrl+Y`.
+- **Clear** : Erase all masks drawn on the current image.
+- **Reference Base Image** : Expand the photo list and select an image for mask editing.
+- **Layer Control** : Toggle visibility of base image and mask overlay.
+- **Import Mask** : Import an exported Mask PNG or custom-drawn mask file. Only pure-black pixels with RGB (0,0,0) will be recognized as masked regions.
+- **Save As** : Export the drawn mask as a Mask PNG file for later import.
 
 ---
 
@@ -68,11 +68,12 @@ When persistent obstructions such as people, brackets, gimbals, camera bodies or
 
 ![](/img/en-img/cameradatabase.png) 
 
-- Pick corresponding camera parameters from the camera list. Selection is unavailable if your camera model is not present in the database.
-- Import Camera Database: Import camera data from an exported MCR file.
-- Search Camera: Enter camera model keywords to look-up camera parameters.
-- Export Database: Export the current database as an MCR file to a specified path.
-- Mask Preview: If masks are stored for the selected camera, click Mask Preview to inspect them.
+Pick corresponding camera parameters from the camera list. Selection is unavailable if your camera model is not present in the database.
+
+- **Import Camera Database** : Import camera data from an exported MCR file.
+- **Search Camera** : Enter camera model keywords to look-up camera parameters.
+- **Export Database** : Export the current database as an MCR file to a specified path.
+- **Mask Preview** : If masks are stored for the selected camera, click Mask Preview to inspect them.
 
 ---
 

@@ -17,15 +17,15 @@ Click Import LiDAR Data to open the LiDAR data import dialog box.
 
 #### 1. Import Point Cloud
 
-- Import Point Cloud: Select point-cloud files to import into the current task.
+- **Point Cloud** : Select point-cloud files to import into the current task.
 
-- Import Folder: Select a target folder to import all point-cloud files inside it into the current task.
+- **Folder** : Select a target folder to import all point-cloud files inside it into the current task.
 
 #### 2. Import Images
 
-- Import Images: Select image files to import into the current task.
+- **Images** : Select image files to import into the current task.
 
-- Import Folder: Select a target folder to import all images inside it into the current task.
+- **Folder** : Select a target folder to import all images inside it into the current task.
 
 ![](/img/en-img/camandpos.png)
 

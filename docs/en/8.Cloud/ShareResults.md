@@ -18,11 +18,11 @@ Click to enable LAN Sharing access, select the target local network, and only us
 
 ![](/img/en-img/share2.png)
 
-- **Select local network address**: Click the dropdown box to select the target LAN.
+- **Select local network address** : Click the dropdown box to select the target LAN.
 
-- **Share Link**: Click the icon to copy the share link or share content.
+- **Share Link** : Click the icon to copy the share link or share content.
 
-- **Generate share image**: Click Generate to create a share image. Scan the QR code in the image to view the model. You can download the share image.
+- **Generate share image** : Click Generate to create a share image. Scan the QR code in the image to view the model. You can download the share image.
 
 > [!warning] Once enabled, this sharing function cannot be manually disabled and will stop automatically when the software is closed.
 
@@ -38,12 +38,12 @@ Click to enable Internet Sharing access. Anyone with the link can view the model
 
 ![](/img/en-img/share3.png)
 
-- **Share Title**: Customize the display name of your shared model.
-- **Description**: Enter a brief description for the shared model.
-- **Access Password**: Toggle to enable a 6-character access password. Visitors must enter the correct password to view the model.
-**Access Expiration**: Select the validity period for this share link (7 / 14 / 30 / 365 days). The link will expire automatically once the time is up.
-- **Share Link**: Click the icon to copy the share link or share content. Click Embed to get the embed code, which can be used to embed the model view into web pages, business systems or third-party platforms.
-- **Generate share image**: Click Generate to create a share image. Scan the QR code in the image to view the model. You can download the share image.
+- **Share Title** : Customize the display name of your shared model.
+- **Description** : Enter a brief description for the shared model.
+- **Access Password** : Toggle to enable a 6-character access password. Visitors must enter the correct password to view the model.
+**Access Expiration** : Select the validity period for this share link (7 / 14 / 30 / 365 days). The link will expire automatically once the time is up.
+- **Share Link** : Click the icon to copy the share link or share content. Click Embed to get the embed code, which can be used to embed the model view into web pages, business systems or third-party platforms.
+- **Generate share image** : Click Generate to create a share image. Scan the QR code in the image to view the model. You can download the share image.
 
 ![](/img/en-img/generate2.png)
 

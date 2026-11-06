@@ -22,11 +22,11 @@ Time-Series Task Management is built on a project-multi-phase task architecture.
 
 ### Application Domains
 
-- Natural Resources: land verification, mine exploitation monitoring, dynamic cultivated-land monitoring.
-- Infrastructure Projects: construction-progress comparison for roads, bridges, water conservancy and building sites.
-- Urban-Rural Development: old-town renewal, urban expansion, urban-planning verification.
-- Agriculture, Forestry & Environmental Protection: afforestation and revegetation, high-standard farmland, river-lake ecological monitoring.
-- Disaster Prevention & Safety Supervision: landslide hazard monitoring, post-flood disaster-impact comparison.
+- **Natural Resources** : land verification, mine exploitation monitoring, dynamic cultivated-land monitoring.
+- **Infrastructure Projects** : construction-progress comparison for roads, bridges, water conservancy and building sites.
+- **Urban-Rural Development** : old-town renewal, urban expansion, urban-planning verification.
+- **Agriculture, Forestry & Environmental Protection** : afforestation and revegetation, high-standard farmland, river-lake ecological monitoring.
+- **Disaster Prevention & Safety Supervision** : landslide hazard monitoring, post-flood disaster-impact comparison.
 
 
 

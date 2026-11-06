@@ -11,11 +11,11 @@ Click the icon ![](/img/cn-img/image92.png) to enable DSM and DOM export for 2D 
 
 
 
-- **Build Pyramid**: When enabled, image pyramids will be generated for fast rendering of images at different scales.
+- **Pyramids** : When enabled, image pyramids will be generated for fast rendering of images at different scales.
 
-- **Tiled Export**: When enabled, enter the maximum side length (in pixels). The DOM will be exported in tiles according to this maximum side-length value.
+- **DOM Tiling** : When enabled, enter the maximum side length (in pixels). The DOM will be exported in tiles according to this maximum side-length value.
 
-- **DOM GSD**: Defaults to Auto. Click Custom GSD to enter a specified resolution. If an excessively small GSD is set, the actual products GSD will be clamped to a fixed value.
+- **DOM GSD** : Defaults to Auto. Click Custom GSD to enter a specified resolution. If an excessively small GSD is set, the actual products GSD will be clamped to a fixed value.
 
 > [!warning] Notes
 > - 2D products cannot be enabled if imported photos contain no geolocation information.

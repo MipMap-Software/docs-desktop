@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## Calibrate
 
->[!tip] The calibration function is only available when the input data does not contain position information (no POS data).
+
 
 ![](/img/en-img/calibrate.png)
 
@@ -31,7 +31,7 @@ Set the reference ground plane of the model to correct tilt and level the model.
 
 >[!tip] Steps:
 >1. Click the Groundplane icon
->2. Left-click three points on the ground area of the 3D/GS model to define the ground reference plane
+>2. Left-click three points on the ground area of the 3D/GS model to define the ground reference plane. The blue arrow indicates the upward vertical direction of the leveled model.
 >3. Click Confirm and wait for the model to finish updating
 
 ![](/img/en-img/groundplane.png)

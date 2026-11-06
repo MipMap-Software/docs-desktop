@@ -35,11 +35,11 @@ For more annotation-related operations:
 
 ---
 
-### Output Layers
+### Result Layers
 
 ![](/img/en-img/resultlayer.png)
 
-Click different output layers. On the right-hand panel you can toggle visibility and adjust rendering modes for the selected output layer.
+Click different result layers. On the right-hand panel you can toggle visibility and adjust rendering modes for the selected result layer.
 
 Orthoimagery and Digital Elevation Model can be displayed in overlay; 3D Model and 3D Point Cloud can be displayed in overlay.
 

@@ -25,15 +25,15 @@ sidebar_position: 6
 
 ### AI Mask
 
+
 ![](/img/en-img/aimask.png)
 
 Click the AI Mask dropdown to select a mask for improved reconstruction results.
 
 
-- **Human**: For datasets with occlusions caused by people in images. Detects people and eliminates human-related artifacts in Gaussian Splatting results.
+- **Person** : For datasets where people cause occlusion in images: it detects people and removes person-related artifacts in Gaussian Splatting results.
 
-- **Water**: For datasets with large water areas in the survey region and available location information. Detects water surfaces and fills and flattens them in the point cloud and textured model.
-
+- **Water** : For datasets covering large water areas with valid location information, this function detects water surfaces, and performs filling and flattening on point clouds and textured models.
 ---
 
 ### Reconstruction Quality
@@ -49,7 +49,7 @@ Click the AI Mask dropdown to select a mask for improved reconstruction results.
 <thead>
 <tr class="header" style="height:70px;">
 <th>Reconstruction Quality</th>
-<th>Ultra-High</th>
+<th>Ultra High</th>
 <th>High</th>
 </tr>
 </thead>

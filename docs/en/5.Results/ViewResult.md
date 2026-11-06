@@ -1,9 +1,9 @@
 ---
-title: Display Controls
+title: View Result
 sidebar_position: 2
 ---
 
-## Display Controls
+## View Result
 
 ![](/img/en-img/displaycontrols.png)
 
@@ -61,10 +61,6 @@ Click to show the field-of-view slider; drag the slider to adjust the field of v
 
 ![](/img/en-img/image142.png): Click to enable sky-box display.
 
-#### Collision
-
-![](/img/en-img/collision.png): Click the icon to show collision.
-
 #### GS Walk
 
 ![](/img/en-img/walk.png): Gaussian Walk for first-person model navigation.
@@ -73,21 +69,21 @@ When you click the Walk icon for the first time, collision voxels need to be gen
 
 ![](/img/en-img/walk2.png)
 
-- **Scene type**: Select a scene type based on the current asset type.
+- **Scene type** : Select a scene type based on the current asset type.
 
-- **Voxel size**: enter an appropriate voxel size.A smaller size delivers finer results but takes longer; use a larger size for large outdoor scenes.
+- **Voxel size** : enter an appropriate voxel size.A smaller size delivers finer results but takes longer; use a larger size for large outdoor scenes.
 
-- **Spawn point**: The generation position defaults to the current view. Click the icon ![](/img/en-img/spawnpoint.png) then right-click the mouse to select the starting point.
+- **Spawn point** : The generation position defaults to the current view. Click the icon ![](/img/en-img/spawnpoint.png) then right-click the mouse to select the starting point.
 
 Click Generate to start the process.
 
 ![](/img/en-img/gswalk.png)
 
-- **Height**: Drag the slider to set the eye height above the ground.
-- **Show collision**: Toggle for collision visualization. When enabled, collision voxels are displayed to diagnose issues such as clipping through walls, ground penetration and terrain stuck errors.
-- **Regenerate**: Rebuild collision voxels and recalculate ground collision bodies for the current scene.
-- **Respawn**: Reset the first-person view to the starting viewpoint.
-- **Exit walk**: Exit walk mode and return to the standard free camera view. The Esc key is also a shortcut for this operation.
+- **Height** : Drag the slider to set the eye height above the ground.
+- **Show collision** : Toggle for collision visualization. When enabled, collision voxels are displayed to diagnose issues such as clipping through walls, ground penetration and terrain stuck errors.
+- **Regenerate** : Rebuild collision voxels and recalculate ground collision bodies for the current scene.
+- **Respawn** : Reset the first-person view to the starting viewpoint.
+- **Exit walk** : Exit walk mode and return to the standard free camera view. The Esc key is also a shortcut for this operation.
 
 #### Controls
 
