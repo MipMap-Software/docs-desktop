@@ -1,6 +1,6 @@
 ﻿---
 title: Reconstruction Settings
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## Reconstruction Settings
@@ -23,6 +23,17 @@ sidebar_position: 6
 
 ---
 
+### AI Mask
+
+![](/img/en-img/aimask.png)
+
+Click the AI Mask dropdown to select a mask for improved reconstruction results.
+
+
+- **Person** : For datasets where people cause occlusion in images: it detects people and removes person-related artifacts in Gaussian Splatting results.
+
+- **Water** : For datasets covering large water areas with valid location information, this function detects water surfaces, and performs filling and flattening on point clouds and textured models.
+
 ### Reconstruction Quality
 
 ![](/img/en-img/quality.png)
@@ -38,8 +49,8 @@ sidebar_position: 6
 </colgroup>
 <thead>
 <tr class="header" style="height:70px;">
-<th>Reconstruction Quality</th>
-<th>Ultra-High</th>
+<th>Quality</th>
+<th>Ultra High</th>
 <th>High</th>
 <th>Medium</th>
 </tr>
@@ -74,13 +85,13 @@ To output results within a custom extent, click ![](/img/en-img/setroi.png) to o
 
 #### Configure Region of Interest
 
-- Smart: Automatically generates the minimal bounding extent based on point-cloud coverage.
+- **Intelligent** : Automatically generates the minimal bounding extent based on point-cloud coverage.
 
-- Maximize: Automatically generates the maximum possible extent.
-- Import KML: Import KML-format boundary polygons into the current project.
+- **Maximize** : Automatically generates the maximum possible extent.
+- **Import KML** : Import KML-format boundary polygons into the current project.
 
-- Manually Edit ROI: Click ![](/img/en-img/image86.png) to display all ROI vertices. Hold left-mouse button on ![](/img/en-img/image87.png) to drag vertices; right-click ![](/img/en-img/image87.png) to delete vertices; left-click ![](/img/en-img/image88.png) to add vertices.
-- Height Adjustment: Enter minimum and maximum values to constrain the vertical reconstruction range.
+- **Manually Edit ROI** : Click ![](/img/en-img/image86.png) to display all ROI vertices. Hold left-mouse button on ![](/img/en-img/image87.png) to drag vertices; right-click ![](/img/en-img/image87.png) to delete vertices; left-click ![](/img/en-img/image88.png) to add vertices.
+- **Elevation Adjustment** : Enter minimum and maximum values to constrain the vertical reconstruction range.
 
 ![](/img/en-img/region2.png)
 
@@ -88,14 +99,14 @@ To output results within a custom extent, click ![](/img/en-img/setroi.png) to o
 
 ![](/img/en-img/tile.png)
 
-- Auto: Automatically divides tiles according to available device memory.
+- **Auto** : Automatically divides tiles according to available device memory.
 
-- 2D Regular: Height information is ignored; regular tiling is performed on the XY plane using the specified grid coordinate system. Set grid size, tiling coordinate system and origin as needed, then click Apply to take effect.
+- **2D Regular** : Height information is ignored; regular tiling is performed on the XY plane using the specified grid coordinate system. Set grid size, tiling coordinate system and origin as needed, then click Apply to take effect.
 
-- Preserve Full Tiles: Tiles intersecting ROI boundaries are normally clipped by the ROI. When enabled, tiles are exported strictly at the configured grid size.
+- **Preserve Full Tiles** : Tiles intersecting ROI boundaries are normally clipped by the ROI. When enabled, tiles are exported strictly at the configured grid size.
 
-- Tiling Information: Note that the peak memory consumption of a single tile must not exceed the device’s available memory; otherwise reconstruction may fail.
+- **Tiling Information** : Note that the peak memory consumption of a single tile must not exceed the device’s available memory; otherwise reconstruction may fail.
 
-- 3D Regular: Height information is considered; regular tiling is performed along X, Y and Z axes using the specified grid and coordinate system.
+- **3D Regular** : Height information is considered; regular tiling is performed along X, Y and Z axes using the specified grid and coordinate system.
 
-- Memory Blocking: Adaptive tiling driven by the maximum memory limit defined per tile.
+- **Memory Blocking** : Adaptive tiling driven by the maximum memory limit defined per tile.

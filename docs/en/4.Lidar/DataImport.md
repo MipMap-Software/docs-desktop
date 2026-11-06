@@ -17,15 +17,15 @@ Click Import LiDAR Data to open the LiDAR data import dialog box.
 
 #### 1. Import Point Cloud
 
-- Import Point Cloud: Select point-cloud files to import into the current task.
+- **Point Cloud** : Select point-cloud files to import into the current task.
 
-- Import Folder: Select a target folder to import all point-cloud files inside it into the current task.
+- **Folder** : Select a target folder to import all point-cloud files inside it into the current task.
 
 #### 2. Import Images
 
-- Import Images: Select image files to import into the current task.
+- **Images** : Select image files to import into the current task.
 
-- Import Folder: Select a target folder to import all images inside it into the current task.
+- **Folder** : Select a target folder to import all images inside it into the current task.
 
 ![](/img/en-img/camandpos.png)
 
@@ -37,11 +37,13 @@ Click Edit Cameras. Select camera parameters for your device model from the data
 
 Click Import POS File and import the solved camera POS file for this station.
 
-#### 5. Add High-Resolution Supplementary Photos
+#### 5. Add High-Detail Photos
 
 Skip this step if no supplementary-photos data is available.
 
 If supplementary-photos data is collected, click ![](/img/en-img/addimg.png) to import images or videos from high-resolution supplementary photos for this station.
+
+> [!warning] For panoramic cameras, import the original panoramic video. Panoramic images and edited MP4 files are not supported.
 
 ---
 
@@ -55,7 +57,7 @@ Import LiDAR data for all flight sessions sequentially.
 
 ---
 
-### Import Aerial Supplementary Photos
+### Import Aerial Photos
 
 After LiDAR data import is finished, click ![](/img/en-img/addimg2.png) to import images or videos from aerial supplementary capture.
 

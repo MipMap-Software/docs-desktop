@@ -1,6 +1,6 @@
 ---
 title: 查看成果
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## 查看成果
@@ -19,10 +19,10 @@ sidebar_position: 6
 2D文件夹里存放所有的二维成果。
 
 ![](/img/cn-img/企业微信截图_20260604121532.png)
--   dom_tiles：正射影像图切片成果。
--   dsm_tiles：数字表面模型切片成果。
--   geotiffs：正射影像图（DOM）、数字表面模型（DSM）等成果。
--   split_dom：正射影像图分幅成果（需打开分幅输出）。
+- **dom_tiles** ：正射影像图切片成果。
+- **dsm_tiles** ：数字表面模型切片成果。
+- **geotiffs** ：正射影像图（DOM）、数字表面模型（DSM）等成果。
+- **split_dom** ：正射影像图分幅成果（需打开分幅输出）。
 
 ---
 
@@ -33,25 +33,25 @@ sidebar_position: 6
 ![](/img/cn-img/result3d.png)
 
 #### 网格模型成果
--   model-b3dm：3DTiles格式的三维模型成果。
--   model-fbx：FBX格式的三维模型成果。
--   model-glb：GLB格式的三维模型成果。
--   model-obj：OBJ格式的三维模型成果。
--   model-osgb：OSGB格式的三维模型成果。
--   model-ply：PLY格式的三维模型成果。
--   model-skp：SKP格式的三维模型成果。
+- **model-b3dm** ：3DTiles格式的三维模型成果。
+- **model-fbx** ：FBX格式的三维模型成果。
+- **model-glb** ：GLB格式的三维模型成果。
+- **model-obj** ：OBJ格式的三维模型成果。
+- **model-osgb** ：OSGB格式的三维模型成果。
+- **model-ply** ：PLY格式的三维模型成果。
+- **model-skp** ：SKP格式的三维模型成果。
 
 #### 高斯模型成果
--   model-gs-ply：PLY格式的高斯模型成果。
--   model-gs-sog：SOG格式的高斯模型成果。
--   model-gs-sog-tile：SOGTile格式的高斯模型成果。
--   model-gs-splat-tile：SplatTile格式的高斯模型成果。
+- **model-gs-ply** ：PLY格式的高斯模型成果。
+- **model-gs-sog** ：SOG格式的高斯模型成果。
+- **model-gs-sog-tile** ：SOGTile格式的高斯模型成果。
+- **model-gs-splat-tile** ：SplatTile格式的高斯模型成果。
 
 #### 点云模型成果
--   point-las：LAS格式的点云成果。
--   point-osgb：OSGB格式的点云成果。
--   point-ply：PLY格式的点云成果。
--   point-pnts：PNTS格式的点云成果。
+- **point-las** ：LAS格式的点云成果。
+- **point-osgb** ：OSGB格式的点云成果。
+- **point-ply** ：PLY格式的点云成果。
+- **point-pnts** ：PNTS格式的点云成果。
 
 ---
 
@@ -79,11 +79,11 @@ thumbnail文件夹存放任务缩略图。
 
 ![](/img/cn-img/企业微信截图_20260604123613.png)
 
--   camera_1_residual：相机残差分布图。
--   overlap_map：重叠覆盖分布图。
--   rgb_thumbnail：![](/img/cn-img/image138.png)存放至此，普通分辨率缩略图。 
+- **camera_1_residual** ：相机残差分布图。
+- **overlap_map** ：重叠覆盖分布图。
+- **rgb_thumbnail** ：![](/img/cn-img/image138.png)存放至此，普通分辨率缩略图。
 
--   rgb_thumbnail_4K：4K高清DOM缩略图。
+- **rgb_thumbnail_4K** ：4K高清DOM缩略图。
 
 
 

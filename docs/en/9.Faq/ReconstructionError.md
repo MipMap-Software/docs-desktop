@@ -39,7 +39,7 @@ If none of the above causes apply, click ![](/img/en-img/support.png) Open the t
 
 ![](/img/en-img/aterror.png)
 
-Cause: Insufficient number of images or insufficient overlap, resulting in too few feature points.
+**Cause** : Insufficient number of images or insufficient overlap, resulting in too few feature points.
 
 :::tip Solutions
 Reconstruction requires more than 10 multi-view images. A 70%-80% overlap ratio is recommended.
@@ -52,11 +52,27 @@ Reconstruction requires more than 10 multi-view images. A 70%-80% overlap ratio 
 ![](/img/en-img/2derror.png)
 
 
-Causes:
+**Causes** :
 - Images are not captured in nadir view, while only 2D output is enabled.
 - Layered point-cloud generation: insufficient capture overlap.
 - Sparse point cloud: Sparse point-cloud results are expected for low-texture areas (water surfaces, solid-color surfaces, smooth reflective surfaces).
 
 :::tip Solutions
 Enable both 2D and 3D output generation. Generate DSM and DOM via nadir projection from the 3D mesh model.
+:::
+
+---
+
+### 9015
+
+![](/img/en-img/9015.png)
+
+**Causes** ： Incorrect coordinate system selected; the POS coordinate values are inconsistent with the selected coordinate system.
+
+As shown in the figure below, the POS values are projected coordinates, while the geographic coordinate system is mistakenly selected.
+
+![](/img/en-img/9015pos.png)
+
+:::tip Solutions
+Select the correct coordinate system. For LiDAR projects, the POS coordinate system shall follow the coordinate system used during point cloud calculation.
 :::

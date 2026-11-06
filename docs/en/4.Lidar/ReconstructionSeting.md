@@ -1,6 +1,6 @@
 ﻿---
 title: Reconstruction Settings
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Reconstruction Settings
@@ -23,6 +23,19 @@ sidebar_position: 5
 
 ---
 
+### AI Mask
+
+
+![](/img/en-img/aimask.png)
+
+Click the AI Mask dropdown to select a mask for improved reconstruction results.
+
+
+- **Person** : For datasets where people cause occlusion in images: it detects people and removes person-related artifacts in Gaussian Splatting results.
+
+- **Water** : For datasets covering large water areas with valid location information, this function detects water surfaces, and performs filling and flattening on point clouds and textured models.
+---
+
 ### Reconstruction Quality
 
 ![](/img/en-img/quality2.png)
@@ -36,7 +49,7 @@ sidebar_position: 5
 <thead>
 <tr class="header" style="height:70px;">
 <th>Reconstruction Quality</th>
-<th>Ultra-High</th>
+<th>Ultra High</th>
 <th>High</th>
 </tr>
 </thead>

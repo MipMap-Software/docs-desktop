@@ -25,12 +25,13 @@ Select a video file to import into the current task.
 
 ![](/img/en-img/video.png)
 
-- Add Video: Select additional video files to add to the frame-extraction list.
-- Start & End: Set the start and end time for frame extraction as required.
-- Time Interval: Configure the frame-extraction time interval according to camera movement speed during capture. The default value is 1 second. Reduce the interval if extracted frames have insufficient overlap.
-- Automatic pose extraction: When enabled, extracted frames will automatically match POS information from the SRT file sharing the same video filename. (SRT refers to DJI drone subtitle files)
-- Uniform Interval: After configuration, all videos in the current list will extract frames using the configured time interval.
+- **Add Video** : Select additional video files to add to the frame-extraction list.
+- **Start & End** : Set the start and end time for frame extraction as required.
+- **Time Interval** : Configure the frame-extraction time interval according to camera movement speed during capture. The default value is 1 second. Reduce the interval if extracted frames have insufficient overlap.
+- **Automatic pose extraction** : When enabled, extracted frames will automatically match POS information from the SRT file sharing the same video filename. (SRT refers to DJI drone subtitle files)
+- **Uniform Interval** : After configuration, all videos in the current list will extract frames using the configured time interval.
 
+> [!warning] For panoramic cameras, import the original panoramic video. Panoramic images and edited MP4 files are not supported.
 ---
 
 ### Delete Photos

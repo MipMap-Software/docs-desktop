@@ -6,7 +6,7 @@ sidebar_position: 2
 ### Register an Account
 After installing the software, double-click the desktop shortcut to open the MipMap Desktop login screen.
 
-> [!tip] Registration Steps:
+> [!tip] Steps:
 >1. Click Register Now to open the MipMap create-account page.
 >2. Select your country or region.
 >3. Enter your email address and password.

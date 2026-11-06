@@ -35,11 +35,11 @@ For more annotation-related operations:
 
 ---
 
-### Output Layers
+### Result Layers
 
 ![](/img/en-img/resultlayer.png)
 
-Click different output layers. On the right-hand panel you can toggle visibility and adjust rendering modes for the selected output layer.
+Click different result layers. On the right-hand panel you can toggle visibility and adjust rendering modes for the selected result layer.
 
 Orthoimagery and Digital Elevation Model can be displayed in overlay; 3D Model and 3D Point Cloud can be displayed in overlay.
 
@@ -71,6 +71,7 @@ When height-based coloring is enabled, point-cloud colors map to elevation value
 
 When photo display is enabled, the solved poses of registered photos are shown on the map.
 
+If the blue camera frustums appear too large or too small, hover your mouse over the icon ![](/img/en-img/camsize.png)to adjust the camera display size. You may enter a value directly or scroll the mouse wheel to get a suitable view.
+
 You can visually assess aerial triangulation quality: continuity of strip stitching, flight-line offset and displacement, and consistency between solved camera poses and actual acquisition poses.
 
-Drag the value-range slider ![](/img/en-img/images.png) to control the display size of photos on the map.

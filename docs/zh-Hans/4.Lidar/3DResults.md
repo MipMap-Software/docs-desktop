@@ -1,43 +1,37 @@
 ﻿---
 title: 三维成果
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## 三维成果
 
-点击图标![](/img/cn-img/image92.png)，开启三维成果输出。
+---
 
-![](/img/cn-img/三维成果.png)
+### 高斯泼溅模型
+
+![](/img/cn-img/高斯泼溅.png)
+
+>[!tip] 开启高斯泼溅模型后，默认会生成 PlayCanvas LOD、PLY 、 Cesium LOD格式。
+
+- **输出格式** ： 点击下拉列表，可选择需要的成果格式
+
+- **最大图像边长**：如果图像长边超过 4096 像素，高斯训练时会自动降采样至 4096 分辨率。选择“不限制”可保留完整原始分辨率，从而获得更高保真度的高斯模型。
+
+- **最大高斯点数**：默认为“自动”，可以自定义高斯点数量，以控制高斯成果的大小。
+
+> [!tip] 100 万个点的高斯 PLY 文件约为 90 MB，可根据实际需要调整高斯点数量。
 
 ---
 
-### 模型
+### 纹理模型
 
-![](/img/cn-img/模型2.png)
+![](/img/cn-img/激光纹理模型.png)
 
-- 开启模型输出后，默认输出B3DM与OSGB格式。
-- 点击下拉框可选择需要输出的格式成果。
+>[!tip] 开启纹理模型后，默认会生成 PNTS 和 LAS 格式的点云，以及 B3DM 和 OSGB 格式的网格模型。
 
----
+- **输出格式** ： 点击下拉列表，可选择需要的成果格式。
 
-### 点云
 
-![](/img/cn-img/点云2.png)
-
-- 开启点云输出后，默认输出PNTS与LAS格式。
-- 点击下拉框可选择需要输出的格式成果。
-
----
-
-### 高斯泼溅
-
-![](/img/cn-img/高斯泼溅2.png)
-
-- 开启高斯泼溅后，默认输出SOGTiles、PLY、SOG格式。
-- 最大高斯点数：默认为自动，可自定义修改高斯点数来控制高斯成果大小。
-- 人物消除：开启后，可消除镜头中的人物对高斯成果的影响。
-> [!tip]一百万点的高斯PLY约为90MB，可按需设置高斯点数。
-  
 ---
 
 ### 成果坐标系
@@ -46,9 +40,8 @@ sidebar_position: 6
 
 <div style="display:flex;">
 
-<img src="/img/cn-img/image60.png" style="width:50%;">
+<img src="/img/en-img/system.png" style="width:50%;">
 
-<img src="/img/cn-img/image61.png" style="width:50%;">
+<img src="/img/en-img/system2.png" style="width:50%;">
 
 </div>
-

@@ -39,7 +39,7 @@ Click the coordinate-system selector to pick the coordinate system and vertical 
 
 ![](/img/en-img/posaccuracy.png)
 
-- Pos Accuracy: Set the accuracy level for current POS data. It is recommended to select according to your actual capture device. Higher accuracy assigns greater weight to POS data during aerial triangulation adjustment.
-- Height Offset: Enter a height offset value. All elevation values in the current POS dataset will be offset globally by this value.
-- Export POS: Export current POS information to a specified folder in CSV format.
-- Clear POS: Erase POS data for all photos in the current project.
+- **Pos Accuracy** : Set the accuracy level for current POS data. It is recommended to select according to your actual capture device. Higher accuracy assigns greater weight to POS data during aerial triangulation adjustment.
+- **Height Offset** : Enter a height offset value. All elevation values in the current POS dataset will be offset globally by this value.
+- **Export POS** : Export current POS information to a specified folder in CSV format.
+- **Clear POS** : Erase POS data for all photos in the current project.

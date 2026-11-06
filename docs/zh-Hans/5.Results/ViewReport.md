@@ -1,6 +1,6 @@
 ---
 title: 查看报告
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 ## 查看报告

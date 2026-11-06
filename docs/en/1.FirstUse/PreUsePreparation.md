@@ -11,17 +11,13 @@ Before using the software, you need to activate it and complete essential prefer
 
 ### Software Activation
 
-1. Visit the official website (https://na.mipmap3d.com/), log in to your account, go to the MipMapDesktop product page, and click `Request a 15-Day TrialTrial`.
+1. Log in to MipMap Desktop and click **Try Ultra for 15 Days** to claim a 15-day trial license for the Ultra edition.
  
-![](/img/en-img/requesttrial.png)
+![](/img/en-img/15daytrial2.png)
 
-2. Click Account, then click My Subscriptions to view your existing Desktop Ultra license.
+2. The license icon changes from Free to Ultra Edition, which indicates the claim is successful.
 
-![](/img/en-img/account.png)
-
-3. Open MipMap Desktop and log in to your account; restart the software if you are already logged in.The `Ultra Edition` icon should appear at the top of the software.
-
-![](/img/en-img/ultraedition.png)
+![](/img/en-img/15daytrial.png)
 
 ---
 

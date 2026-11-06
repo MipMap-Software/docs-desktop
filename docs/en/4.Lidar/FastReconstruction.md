@@ -13,13 +13,13 @@ Raw LiDAR data must be processed and exported using the manufacturer-supplied po
 
 ::: warning Required Data:
 
-- **Colorized Point Cloud .las File**: The point cloud must contain timestamp fields that match timestamps in POS data.
+- **Colorized Point Cloud .las File** : The point cloud must contain timestamp fields that match timestamps in POS data.
 
-- **Image Files**: Undistorted exported images or original fisheye images are both acceptable.
+- **Image Files** : Undistorted exported images or original fisheye images are both acceptable.
 
-- **Camera POS File**: The POS file must include: timestamp, image name, X, Y, Z. Attitude angles (optional).
+- **Camera POS File** : The POS file must include: timestamp, image name, X, Y, Z. Attitude angles (optional).
 
-- **Coordinate System**: LAS point cloud and POS data must share the same coordinate system.
+- **Coordinate System** : LAS point cloud and POS data must share the same coordinate system.
 :::
 
 ---

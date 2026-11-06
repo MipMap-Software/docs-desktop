@@ -1,6 +1,6 @@
 ﻿---
 title: Set GCP
-sidebar_position: 5
+sidebar_position: 6
 ---
 ## Set GCP
 
@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ### Start Aerial Triangulation
 
-Select Aerial Triangulation from the template and click to start aerial triangulation.
+After importing the photos, click **Start AT** to  initiate aerial triangulation.
 
 ![](/img/en-img/at.png)
 
@@ -22,9 +22,10 @@ After aerial triangulation completes, click the camera icon in the upper-right c
 
 
 > [!warning] Verification Checklist:
->- Camera Pose: Verify whether camera position and orientation match the actual acquisition status.
->- Point Cloud: Check whether the point cloud has layering artifacts and is uniform without gaps.
+>- **Camera Pose** : Verify whether camera position and orientation match the actual acquisition status.
+>- **Point Cloud** : Check whether the point cloud has layering artifacts and is uniform without gaps.
 
+Cameras and tie points with matching errors can be edited and deleted. [**Aerotriangulation Edit**](../3.Visiblelight/AerotriangulationEdit.md)
 
 Proceed to Set GCP if aerial triangulation quality is acceptable.
 
@@ -57,9 +58,9 @@ Left-click an ID in the lower GCP list to select a ground control point.
 
 :::tip GCP Types:
 
-- Control Point: Participates in aerial triangulation optimization to control output accuracy.
-- Check Point: Does not participate in aerial triangulation optimization; used to validate output accuracy.
-- Disabled: This point takes no effect.
+- **Control Point** : Participates in aerial triangulation optimization to control output accuracy.
+- **Check Point** : Does not participate in aerial triangulation optimization; used to validate output accuracy.
+- **Disabled** : This point takes no effect.
 :::
 
 
@@ -82,10 +83,10 @@ If icon ![](/img/en-img/image77.png) predicts the GCP location on the current im
 ![](/img/en-img/image79.png)![](/img/en-img/image80.png) switch images, and ![](/img/en-img/image81.png) clears measured points for the current image.
 
 **Other Operations:**
-- Export Tie Points Markers: Export current point-measurement data as a JSON file.
-- Import Tie Points Markers: Import point-measurement JSON file into the current project.
-- Import Control Points: Remove all GCP from the current project.
-- Clear Ground Control Points: Delete the selected GCP.
+- **Export Tie Points Markers** : Export current point-measurement data as a JSON file.
+- **Import Tie Points Markers** : Import point-measurement JSON file into the current project.
+- **Import Control Points** : Remove all GCP from the current project.
+- **Clear Ground Control Points** : Delete the selected GCP.
 
 ---
 

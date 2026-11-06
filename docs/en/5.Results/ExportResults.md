@@ -1,6 +1,6 @@
 ---
 title: Export Results
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Export Results
@@ -11,7 +11,7 @@ sidebar_position: 5
 
 Export products for the full extent of the current view. If products have been cropped, the cropped version will be exported.
 
-:::tip Operation Steps
+:::tip Steps：
 
 1. Select the output type to export: 2D / 3D / GS.
 
@@ -32,9 +32,9 @@ Export products for the full extent of the current view. If products have been c
 
 **Other Operations**
 
-- **Change Coordinate System**: Click Coordinate System on the export panel to select a target output coordinate system. Local coordinate systems cannot be changed.
+- **Change Coordinate System** : Click Coordinate System on the export panel to select a target output coordinate system. Local coordinate systems cannot be changed.
 
-- **Merge Results**: Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
+- **Merge Results** : Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
 
 ---
 
@@ -42,7 +42,7 @@ Export products for the full extent of the current view. If products have been c
 
 Draw a boundary over products to crop and export data within the selected area. This does not modify project source products.
 
-:::tip Operation Steps
+:::tip Steps：
 
 1. Select the output format to export: 2D / 3D / GS.
 
@@ -50,7 +50,7 @@ Draw a boundary over products to crop and export data within the selected area. 
 
 3. Draw the export boundary on the output. Left-click to add vertices; double-click the left mouse button to finish drawing.
 
-4. After drawing, click the confirm icon ![](/img/cn-img/对.png).
+4. After drawing, click the confirm icon ![](/img/en-img/confirm.png).
 
 5. Click Browse and specify the target folder for exported products.
 
@@ -65,13 +65,13 @@ Draw a boundary over products to crop and export data within the selected area. 
 
 **Other Operations**
 
-- After drawing, adjust the boundary polygon: left-click ![](/img/cn-img/添加节点.png) to add vertices, right-click ![](/img/cn-img/删除节点.png) to remove vertices, or hold the left mouse button to drag vertices.
+- After drawing, you can adjust the boundary polygon. Left-click ![](/img/en-img/add.png) to add vertices, right-click ![](/img/en-img/deletepoint.png) to remove vertices, or hold the left mouse button to drag vertices.
 
-- Click ![](/img/cn-img/取消.png) to abort the export operation.
+- Click ![](/img/en-img/cancel.png) to abort the cropping operation.
 
-- **Change Coordinate System**: Click Coordinate System on the export panel to select a target output coordinate system. Local coordinate systems cannot be changed.
+- **Change Coordinate System** : Click Coordinate System on the export panel to select a target output coordinate system. Local coordinate systems cannot be changed.
 
-- **Merge products**: Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
+- **Merge Results** : Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
 
 ---
 
@@ -98,4 +98,4 @@ Draw a boundary over products to crop and export data within the selected area. 
 
 **Other Operations**
 
-- **Images Undistortion**: Check Undistort Images to export undistorted aerial-triangulation files together with corresponding undistorted images.
+- **Images Undistortion** : Check Undistort Images to export undistorted aerial-triangulation files together with corresponding undistorted images.
