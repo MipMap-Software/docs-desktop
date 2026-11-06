@@ -14,7 +14,7 @@ sidebar_position: 5
 
 2 . Once aerial triangulation finishes, click the icon ![](/img/en-img/editatlogo.png)to open the aerotriangulation editing panel.
 
-![](/img/en-img/editat.png)
+![](/img/en-img/editat2.png)
 
 3 . If the blue camera frustums appear too large or too small, hover your mouse over the icon ![](/img/en-img/camsize.png)to adjust the camera display size. You may enter a value directly or scroll the mouse wheel to get a suitable view.
 
@@ -41,4 +41,4 @@ In the software, they are visualized as blue camera frustums that deviate substa
 - **Don't apply** : Discard deletions and exit
 - **Cancel** : Stay in the editor
 
-![](/img/en-img/editcamtip.png)
+![](/img/en-img/editcamtip2.png)

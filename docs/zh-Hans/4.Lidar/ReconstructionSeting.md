@@ -1,6 +1,6 @@
 ﻿---
 title: 重建设置
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## 重建设置

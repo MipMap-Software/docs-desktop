@@ -9,6 +9,15 @@ sidebar_position: 2
 
 ---
 
+### Local/Cloud
+
+![](/img/en-img/localandcloud.png)
+
+- **Local** : Click Local, and only projects stored locally will be displayed on the main interface.
+- **Cloud** : Click Cloud, and only projects uploaded to the cloud space will be displayed on the main interface.
+
+---
+
 ### Project Search
 
 ![](/img/en-img/list1.png) Enter the full project name or keywords to search for projects.
@@ -17,14 +26,16 @@ sidebar_position: 2
 
 ### Project Filter
 
-![](/img/en-img/filter.png) Click the filter drop-down box to select filter conditions.
+> [!tip]The project filter bar will only appear after tags are added in project options.
 
-- **Local Project** : Display projects stored locally.
-- **Cloud Project** : Display projects uploaded to cloud storage.
-- **Tag** : Display projects containing the selected tags.
-- **Reset** : Reset all selected filter conditions.
+![](/img/en-img/addtag.png)
 
-![](/img/en-img/filter2.png)
+![](/img/en-img/filter.png)Click the filter dropdown to select filter tags.
+
+![](/img/en-img/tag.png)
+
+- **Tags** ： Click the corresponding tag, and only projects with the selected tag will be displayed on the main interface.
+- **Reset** ：Clear the selected filter conditions.
 
 ---
 
