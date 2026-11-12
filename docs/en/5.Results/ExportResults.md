@@ -36,6 +36,8 @@ Export products for the full extent of the current view. If products have been c
 
 - **Merge Results** : Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
 
+- **Y-axis Up** : Check the Y-axis Up option when exporting GS assets. The Gaussian splat coordinate system will be automatically converted to Y-axis Up for compatibility with Y-axis Up rendering environments including SuperSplat and Unity.
+
 ---
 
 ### Area Export
@@ -72,6 +74,8 @@ Draw a boundary over products to crop and export data within the selected area. 
 - **Change Coordinate System** : Click Coordinate System on the export panel to select a target output coordinate system. Local coordinate systems cannot be changed.
 
 - **Merge Results** : Check Merge products when exporting 3D products to combine 3D data into a single model file. Larger scenes consume more runtime memory. Merging is not available for B3DM and OSGB formats.
+
+- **Y-axis Up** : Check the Y-axis Up option when exporting GS assets. The Gaussian splat coordinate system will be automatically converted to Y-axis Up for compatibility with Y-axis Up rendering environments including SuperSplat and Unity.
 
 ---
 
